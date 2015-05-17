@@ -5,7 +5,7 @@ site:
     My name is Kasey Bonifacio and I'm passionate about web development and love constantly learning new ways to make the web more awesome. Right now I am an apprentice at Sparkbox but before that, I had three years of frontend design and development under my belt. Once the apprenticeship is finished, I plan to be on the path to become a full-stack developer. When I can pry myself away from the computer, I can be found spending time with family, cooking, or being crafty.
   tags: ["code", "crafts", "food", "geeky references", "kids"]
 
-online_account:
+online_accounts:
   - account:
       title: GitHub
       url: https://github.com/kaseybon
@@ -20,7 +20,7 @@ online_account:
       tags: ["code", "geeky references"]
   - account:
       title: Tumblr
-      url: https://kaseybon.tumblr.com
+      url: http://kaseybon.tumblr.com
       tags: ["crafts", "food", "geeky references", "kids"]
   - account:
       title: Pinterest
