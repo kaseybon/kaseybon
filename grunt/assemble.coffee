@@ -2,7 +2,7 @@ module.exports = (grunt) ->
   grunt.config "assemble",
     options:
       partials: "source/templates/partials/*"
-      data: "data/*.yml"
+      data: "source/data/*.yml"
       layoutdir: "source/templates/layouts/"
       layout: ['default.hbs']
     files:
