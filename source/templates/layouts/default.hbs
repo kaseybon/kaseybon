@@ -2,9 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>{{site.title}} :: {{site.tagline}}</title>
 </head>
 <body>
-  {{body}}
+  
+  <h1>{{site.tagline}}</h1>
+  <p>{{site.bio}}</p>
+
+  <h2>Things I Make:</h2>
+    
+    <ul>
+      {{#each site.tags}}
+        <li>#{{ . }}</li>
+        {{/each}}
+    </ul>
+  </nav>
+
+  <ul>
+    {{#online_accounts}}
+    <li>
+      <h3>On <a href="{{ account.url }}" title="{{ account.title }}">{{ account.title }}</a> I post about:</h3>
+      <ul>
+        {{#each account.tags}}
+        <li>#{{ . }}</li>
+        {{/each}}
+      </ul>
+    </li>
+    {{/online_accounts}}
+  </ul>
+  
+
 </body>
 </html> 
