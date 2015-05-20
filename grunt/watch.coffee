@@ -1,17 +1,17 @@
 module.exports = (grunt) ->
   grunt.config "watch",
   stylesheets:
-    files: "scss/**/*"
+    files: "source/scss/**/*"
     tasks: "sass:dev"
     options:
       {livereload: true}
   
   autoprefixer:
-    files: 'build/css/*':'build/css/*'
+    files: 'build/*':'build/*'
     tasks: "autoprefixer"
 
   partials:
-    files: ["source/templates/**/*", "source/data/*", "source/content/*"]
+    files: ["source/templates/**/*", "source/data/*"]
     tasks: "assemble"
     options:
       {livereload: true}

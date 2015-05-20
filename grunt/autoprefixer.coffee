@@ -1,5 +1,5 @@
 module.exports = (grunt) ->
   grunt.config "autoprefixer",
-  files: 'build/css/*':'build/css/*'
+  files: 'build/*':'build/*'
 
   grunt.loadNpmTasks 'grunt-autoprefixer'
