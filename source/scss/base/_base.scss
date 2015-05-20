@@ -1,0 +1,36 @@
+body {
+  background: $c--white;
+  font-family: $f--primary;
+  color: $c--smoke;
+}
+
+/* Text */
+h1, h2, h3, h4, h5, h6 {
+  font-family: $f--heading;
+  line-height: 1.64;
+  color: $c--tomato;
+  margin: 0;
+}
+p {
+  margin: 0 0 1.64em;
+}
+
+/* Links */
+a {
+  color: $c--tomato;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Lists */
+ol, ul {
+
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
