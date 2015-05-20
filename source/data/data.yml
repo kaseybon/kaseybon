@@ -1,32 +1,37 @@
 site:
-  title: Kasey Bon
-  sub_title: Crafty. Web. Geek. 
-  description: |
-    My name is Kasey Bonifacio and I'm passionate about web development and love constantly learning new ways to make the web more awesome. Right now I am an apprentice at Sparkbox but before that, I had three years of frontend design and development under my belt. Once the apprenticeship is finished, I plan to be on the path to become a full-stack developer. When I can pry myself away from the computer, I can be found spending time with family, cooking, or being crafty.
+  title: Kasey Bonifacio
+  tagline: Crafty. Web. Geek. 
+  bio: 'My name is Kasey Bonifacio and I''m passionate about web development and love constantly learning new ways to make the web more awesome. Right now I am an apprentice at Sparkbox but before that, I had three years of frontend design and development under my belt. Once the apprenticeship is finished, I plan to be on the path to become a full-stack developer. When I can pry myself away from the computer, I can be found spending time with family, cooking, or being crafty.'
   tags: ["code", "crafts", "food", "geeky references", "kids"]
 
 online_accounts:
   - account:
       title: GitHub
       url: https://github.com/kaseybon
+      icon:
       tags: ["code"]
   - account:
       title: CodePen
       url: https://codepen.io/kaseybon
+      icon:
       tags: ["code"]
   - account:
       title: Twitter
       url: https://twitter.com/_kaseybon
+      icon:
       tags: ["code", "geeky references"]
   - account:
       title: Tumblr
       url: http://kaseybon.tumblr.com
+      icon:
       tags: ["crafts", "food", "geeky references", "kids"]
   - account:
       title: Pinterest
       url: https://pinterest.com/kaseybon
+      icon:
       tags: ["crafts", "food", "geeky references", "kids"]
   - account:
       title: Instagram
       url: https://instagram.com/kaseybon
+      icon:
       tags: ["crafts", "food", "kids"]
