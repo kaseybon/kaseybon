@@ -1,0 +1,14 @@
+<h2>All the Things:</h2>
+
+<ul>
+  {{#online_accounts}}
+  <li>
+    <h3>On <a href="{{ account.url }}" title="{{ account.title }}">{{ account.title }}</a> I post about:</h3>
+    <ul>
+      {{#each account.tags}}
+      <li>#{{ . }}</li>
+      {{/each}}
+    </ul>
+  </li>
+  {{/online_accounts}}
+</ul>
