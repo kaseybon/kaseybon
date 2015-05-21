@@ -1,0 +1,12 @@
+<h1 class="header__title">{{site.tagline}}</h1>
+<p>{{site.bio}}</p>
+
+<nav class="nav">
+  <h2 class="nav__title">Things I Make:</h2>
+
+  <ul class="menu">
+    {{#each site.tags}}
+      <li class="menu__item menu__item--header">#{{ . }}</li>
+      {{/each}}
+  </ul>
+</nav>

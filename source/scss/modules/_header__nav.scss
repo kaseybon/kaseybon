@@ -1,0 +1,10 @@
+.nav {
+  border-top: 2px dashed $c--silver;
+  margin: $sp 0;
+  padding-top: $sp;
+}
+.nav__title {
+  display: inline-block;
+  margin: 0;
+  font-size: 20px;
+}
