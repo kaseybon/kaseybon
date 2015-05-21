@@ -22,9 +22,9 @@ Progress
 - [x] Write content
 - [x] Create page template
 - [ ] Style modules
-  -  [ ] Site header
+  -  [x] Site header
   -  [ ] Site footer
-  -  [ ] Site navigation
+  -  [x] Site "navigation"
   -  [ ] Online accounts list
 -  [ ] Javascript functional animations
 -  [ ] Browser testing

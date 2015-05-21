@@ -1,15 +1,18 @@
 body {
-  background: $c--white;
+  background: $c--white-smoke;
   font-family: $f--primary;
   color: $c--smoke;
+  padding: 0;
+  margin: 0;
+  line-height: 1.64em;
+  font-size: 16px;
 }
 
 /* Text */
 h1, h2, h3, h4, h5, h6 {
   font-family: $f--heading;
-  line-height: 1.64;
-  color: $c--tomato;
-  margin: 0;
+  line-height: 1.64em;
+  margin: 0 0 $sp;
 }
 p {
   margin: 0 0 1.64em;

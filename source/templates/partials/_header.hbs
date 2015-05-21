@@ -1,12 +1,12 @@
-<h1>{{site.tagline}}</h1>
+<h1 class="header__title">{{site.tagline}}</h1>
 <p>{{site.bio}}</p>
 
-<nav>
-  <h2>Things I Make:</h2>
+<nav class="nav">
+  <h2 class="nav__title">Things I Make:</h2>
 
-  <ul>
+  <ul class="menu">
     {{#each site.tags}}
-      <li>#{{ . }}</li>
+      <li class="menu__item menu__item--header">#{{ . }}</li>
       {{/each}}
   </ul>
 </nav>
