@@ -23,7 +23,7 @@ Progress
 - [x] Create page template
 - [ ] Style modules
   -  [x] Site header
-  -  [ ] Site footer
+  -  [x] Site footer
   -  [x] Site "navigation"
   -  [ ] Online accounts list
 -  [ ] Javascript functional animations
