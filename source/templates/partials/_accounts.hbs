@@ -3,14 +3,15 @@
 <ul class="grid">
   {{#online_accounts}}
   <li class="grid__item">
-    <div class="grid__card">
-      <h3>On <a href="{{ account.url }}" title="{{ account.title }}">{{ account.title }}</a> I post about:</h3>
+    <a href="{{ account.url }}" title="{{ account.title }}" class="grid__card">
+      <h2>{{ account.title }}</h2>
+      <h3>I post about:</h3>
       <ul class="menu">
         {{#each account.tags}}
         <li class="menu__item">#{{ . }}</li>
         {{/each}}
       </ul>
-    </div>
+    </a>
   </li>
   {{/online_accounts}}
 </ul>

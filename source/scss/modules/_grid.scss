@@ -19,8 +19,15 @@
   }
 }
 .grid__card {
+  display: block;
   margin: $sp;
   padding: $sp;
   background: $c--white;
   border-radius: 5px;
+  color: $c--smoke;
+  h2 {
+    color: $c--tomato;
+    margin-top: 100px;
+    border-bottom: 2px dashed $c--silver;
+  }
 }
