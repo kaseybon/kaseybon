@@ -1,14 +1,17 @@
-<h2>All the Things:</h2>
+<h1 class="content__title">All the Things</h1>
 
-<ul>
+<ul class="grid">
   {{#online_accounts}}
-  <li>
-    <h3>On <a href="{{ account.url }}" title="{{ account.title }}">{{ account.title }}</a> I post about:</h3>
-    <ul>
-      {{#each account.tags}}
-      <li>#{{ . }}</li>
-      {{/each}}
-    </ul>
+  <li class="grid__item">
+    <a href="{{ account.url }}" title="{{ account.title }}" class="grid__card">
+      <h2>{{ account.title }}</h2>
+      <h3>I post about:</h3>
+      <ul class="menu">
+        {{#each account.tags}}
+        <li class="menu__item">#{{ . }}</li>
+        {{/each}}
+      </ul>
+    </a>
   </li>
   {{/online_accounts}}
 </ul>
