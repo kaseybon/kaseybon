@@ -1,0 +1,45 @@
+.account {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+.account__item {
+  display: block;
+  box-sizing: border-box;
+  @media (min-width: 600px) {
+    width: 50%;
+    float: left;
+    &:nth-child(even) {
+      clear: right;
+    }
+  }
+  @media (min-width: 900px) {
+    width: 33.33%;
+    &:nth-child(even) {
+      clear: none;
+    }
+    &:nth-child(3n+1) {
+      clear: right;
+    }
+  }
+}
+.account__card {
+  display: block;
+  margin: $sp;
+  padding: $sp;
+  background: $c--white;
+  border-radius: 5px;
+  color: $c--smoke;
+}
+
+.account__title {
+  display: block;
+  border-bottom: 2px dashed $c--silver;
+  padding: $sp;
+  line-height: 40px;
+}
+.account__image {
+  max-width: 80px;
+  padding: 5% 5% 0;
+}

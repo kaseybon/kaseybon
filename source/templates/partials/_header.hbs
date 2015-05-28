@@ -6,7 +6,7 @@
 
   <ul class="menu">
     {{#each site.tags}}
-      <li class="menu__item menu__item--header">#{{ . }}</li>
+      <li class="menu__item menu__item--header" data-tag="{{ . }}">#{{ . }}</li>
       {{/each}}
   </ul>
 </nav>

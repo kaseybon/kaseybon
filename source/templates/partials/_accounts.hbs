@@ -1,11 +1,11 @@
 <h1 class="content__title">All the Things</h1>
 
-<ul class="grid">
+<ul class="account">
   {{#online_accounts}}
-  <li class="grid__item">
-    <a href="{{ account.url }}" title="{{ account.title }}" class="grid__card">
-      <h2>{{ account.title }}</h2>
-      <h3>I post about:</h3>
+  <li class="account__item">
+    <a href="{{ account.url }}" title="{{ account.title }}" class="account__card">
+      <img src="{{ account.icon }}" alt="{{ account.title }}" class="account__image" />
+      <h2 class="account__title">{{ account.title }}</h2>
       <ul class="menu">
         {{#each account.tags}}
         <li class="menu__item">#{{ . }}</li>

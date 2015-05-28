@@ -6,5 +6,11 @@
 }
 .menu__item {
   display: inline-block;
-  padding: 0 10px;
+  color: $c--silver;
+  font-size: 14px;
+  padding: 0 5px;
+  &[data-tag] {
+    color: $c--tomato;
+    font-size: 16px;
+  }
 }
