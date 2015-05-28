@@ -6,32 +6,32 @@ site:
 
 online_accounts:
   - account:
-      title: GitHub
-      url: https://github.com/kaseybon
-      icon: imgs/github.svg
-      tags: ["code"]
-  - account:
       title: CodePen
       url: https://codepen.io/kaseybon
       icon: imgs/codepen.svg
       tags: ["code"]
   - account:
-      title: Twitter
-      url: https://twitter.com/_kaseybon
-      icon: imgs/twitter.svg
-      tags: ["code", "geekery"]
+      title: GitHub
+      url: https://github.com/kaseybon
+      icon: imgs/github.svg
+      tags: ["code"]
   - account:
-      title: Tumblr
-      url: http://kaseybon.tumblr.com
-      icon: imgs/tumblr.svg
-      tags: ["crafts", "food", "geekery", "kids"]
+      title: Instagram
+      url: https://instagram.com/kaseybon
+      icon: imgs/instagram.svg
+      tags: ["crafts", "food", "kids"]
   - account:
       title: Pinterest
       url: https://pinterest.com/kaseybon
       icon: imgs/pinterest.svg
       tags: ["crafts", "food", "geekery", "kids"]
   - account:
-      title: Instagram
-      url: https://instagram.com/kaseybon
-      icon: imgs/instagram.svg
-      tags: ["crafts", "food", "kids"]
+      title: Tumblr
+      url: http://kaseybon.tumblr.com
+      icon: imgs/tumblr.svg
+      tags: ["crafts", "food", "geekery", "kids"]
+  - account:
+      title: Twitter
+      url: https://twitter.com/_kaseybon
+      icon: imgs/twitter.svg
+      tags: ["code", "geekery"]
