@@ -5,6 +5,8 @@
 }
 .header__title {
   color: $c--tomato;
-  font-size: 50px;
-  font-size: 3.125rem
+  font-size: 30px;
+  @media (min-width: 600px) {
+    font-size: 50px;
+  }
 }

@@ -4,5 +4,8 @@
 }
 
 .content__title {
-  font-size: 30px;
+  font-size: 20px;
+  @media (min-width: 600px) {
+    font-size: 30px;
+ }
 }
