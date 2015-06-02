@@ -25,7 +25,11 @@ Progress
   -  [x] Site header
   -  [x] Site footer
   -  [x] Site "navigation"
-  -  [ ] Online accounts list
--  [ ] Javascript functional animations
+  -  [x] Online accounts list
 -  [ ] Browser testing
 -  [ ] Launch
+-  [ ] Javascript functional animations
+  - [ ] Sort feature
+  - [ ] Pinned categories
+  - [ ] Footer background
+  - [ ] Fancy Header
