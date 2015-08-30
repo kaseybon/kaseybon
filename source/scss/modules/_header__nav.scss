@@ -19,3 +19,11 @@
   margin: 0;
   font-size: 20px;
 }
+
+@media print {
+  .nav {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+}

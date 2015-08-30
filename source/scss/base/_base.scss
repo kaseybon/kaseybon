@@ -40,3 +40,28 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+@media print {
+  body {
+    background: transparent;
+    color: #000;
+    margin: 0.5cm;
+  }
+  a {
+    color: #000;
+    &:hover {
+      text-decoration: none;
+    }
+    &:after {
+      content: " [ " attr(href) " ]";
+      font-size: 12px;
+      display: inline;
+    }
+  }
+  img {
+    page-break-inside: avoid;
+    filter: gray;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+}

@@ -10,3 +10,15 @@
     font-size: 50px;
   }
 }
+
+@media print {
+  .header {
+    text-align: left;
+    padding: 0 0 20px;
+  }
+  .header__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000;
+  }
+}

@@ -43,3 +43,39 @@
   max-width: 80px;
   padding: 5% 5% 0;
 }
+
+@media print {
+  .account__item {
+    display: block;
+    width: 100%;
+    float: none;
+    clear: both;
+    padding-bottom: 20px;
+  }
+  .account__card {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    clear: both;
+    &:hover {
+      text-decoration: none;
+    }
+    &:after {
+      display: block;
+      padding-left: 60px;
+    }
+  }
+  .account__title {
+    display: inline;
+    padding: 0;
+    border: none;
+    line-height: 40px;
+  }
+  .account__image {
+    max-width: 40px;
+    float: left;
+    padding: 0 20px 0 0;
+  }
+}
