@@ -3,3 +3,12 @@
   text-align: center;
   color: $c--silver;
 }
+
+@media print {
+  .footer {
+    color: #000;
+    font-size: 13px;
+    padding: 0;
+    text-align: left;
+  }
+}

@@ -7,3 +7,9 @@
   max-width: 72em;
   margin: auto;
 }
+
+@media print {
+  .max-width, .max-width-wide {
+    max-width: none;
+  }
+}

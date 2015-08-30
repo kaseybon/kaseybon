@@ -40,3 +40,20 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+@media print {
+  body {
+    background: transparent;
+    color: #000;
+    margin: 0.5cm;
+  }
+  a {
+    color: #000;
+    text-decoration: underline;
+    &:after {
+      content: " [ " attr(href) " ]";
+      font-size: 12px;
+      display: inline;
+    }
+  }
+}
