@@ -11,4 +11,4 @@ module.exports = (grunt) ->
       src: ['*.hbs']
       dest: 'build/'
 
-  grunt.loadNpmTasks 'assemble'
+  grunt.loadNpmTasks 'grunt-assemble'

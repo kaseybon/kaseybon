@@ -6,14 +6,11 @@ Building the new [kaseybon.com](http://kaseybon.com)
 Install
 -------
 
-1. Install Grunt
+1. `$ npm install -g grunt-cli`
+1. `$ npm install`
+1. `$ grunt`
 
-  ```$ npm install -g grunt-cli```
-1. Install Node Modules
-
-  ```$ npm install```
-
-Website compiles to ```build/``` folder
+Website compiles to `build/` folder
 
 Progress
 --------
