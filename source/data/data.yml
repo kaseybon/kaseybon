@@ -11,11 +11,6 @@ online_accounts:
       icon: imgs/codepen.svg
       tags: ["code"]
   - account:
-      title: Cooking Season
-      url: http://thecookingseason.com
-      icon: imgs/cooking-season.svg
-      tags: ["food"]
-  - account:
       title: GitHub
       url: https://github.com/kaseybon
       icon: imgs/github.svg
