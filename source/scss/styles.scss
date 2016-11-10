@@ -1,17 +1,26 @@
-/*------------------------------------*\
-  $BASE
-\*------------------------------------*/
-
-@import "base/index";
+@import "base/config";
 
 /*------------------------------------*\
   $MODULES
 \*------------------------------------*/
 
-@import "modules/index";
+/* header */
+@import "modules/header";
+
+/* menus */
+@import "modules/menu";
+
+/* accounts */
+@import "modules/account";
+
+/* content */
+@import "modules/content";
+
+/* footer */
+@import "modules/footer";
 
 /*------------------------------------*\
   $LAYOUT
 \*------------------------------------*/
 
-@import "layouts/index";
+@import "base/layout";

@@ -2,7 +2,7 @@ body {
   background: $c--white-smoke;
   font-family: $f--primary;
   color: $c--smoke;
-  padding: 0;
+  padding: 2rem;
   margin: 0;
   line-height: 1.64em;
   font-size: 16px;
@@ -12,13 +12,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $f--heading;
   line-height: 1.64em;
-  margin: 0 0 $sp;
+  margin: 0 0 1.64rem;
 }
-p {
+
+p:not(:last-child) {
   margin: 0 0 1.64em;
-  &:last-child {
-    margin: 0;
-  }
 }
 
 /* Links */
@@ -28,7 +26,7 @@ a {
 
 /* Lists */
 ol, ul {
-
+  margin: 0 0 1.64rem;
 }
 
 /* Images */
@@ -43,17 +41,21 @@ img {
     color: #000;
     margin: 0.5cm;
   }
+
   a {
     color: #000;
+
     &:hover {
       text-decoration: none;
     }
+
     &:after {
       content: " [ " attr(href) " ]";
       font-size: 12px;
       display: inline;
     }
   }
+
   img {
     page-break-inside: avoid;
     filter: gray;
