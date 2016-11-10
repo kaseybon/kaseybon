@@ -2,12 +2,32 @@
   background: $c--white;
   padding: $sp;
   text-align: center;
-}
-.header__title {
-  color: $c--tomato;
-  font-size: 30px;
-  @media (min-width: 600px) {
-    font-size: 50px;
+
+  &__title {
+    color: $c--tomato;
+    font-size: 30px;
+
+    @media (min-width: 600px) {
+      font-size: 50px;
+    }
+  }
+
+  &__description {
+    border-bottom: 2px dashed $c--silver;
+    margin: $sp 0;
+    padding-bottom: $sp;
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 30px;
+      height: 30px;
+      bottom: -15px;
+      right: 0;
+      background: $c--white url(imgs/scissors.svg);
+    }
   }
 }
 
@@ -15,10 +35,11 @@
   .header {
     text-align: left;
     padding: 0 0 20px;
-  }
-  .header__title {
-    font-size: 30px;
-    margin-bottom: 20px;
-    color: #000;
+
+    &__title {
+      font-size: 30px;
+      margin-bottom: 20px;
+      color: #000;
+    }
   }
 }

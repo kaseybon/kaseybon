@@ -31,6 +31,12 @@
   background: $c--white;
   border-radius: 5px;
   color: $c--smoke;
+  text-decoration: none;
+  transition: all 0.5s;
+
+  &:hover {
+    box-shadow: 8px 8px 0 rgba($c--smoke, .25);
+  }
 }
 
 .account__title {
@@ -61,21 +67,17 @@
     clear: both;
     &:hover {
       text-decoration: none;
-    }
-    &:after {
-      display: block;
-      padding-left: 60px;
+      box-shadow: none;
     }
   }
   .account__title {
     display: inline;
     padding: 0;
     border: none;
-    line-height: 40px;
+    line-height: 30px;
+    font-size: 18px;
   }
   .account__image {
-    max-width: 40px;
-    float: left;
-    padding: 0 20px 0 0;
+    display: none;
   }
 }
