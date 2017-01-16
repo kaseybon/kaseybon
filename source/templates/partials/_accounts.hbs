@@ -4,8 +4,12 @@
   {{#online_accounts}}
   <li class="account__item">
     <a href="{{ account.url }}" title="{{ account.title }}" class="account__card">
-      <img src="{{ account.icon }}" alt="{{ account.title }}" class="account__image" />
+      <svg width="80" height="80">
+        <image xlink:href="imgs/{{ account.icon }}.svg" src="imgs/{{ account.icon }}.png" width="80" height="80" />
+      </svg>
+
       <h2 class="account__title">{{ account.title }}</h2>
+
       <ul class="menu">
         {{#each account.tags}}
         <li class="menu__item">#{{ . }}</li>

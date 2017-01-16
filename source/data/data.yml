@@ -8,35 +8,35 @@ online_accounts:
   - account:
       title: CodePen
       url: https://codepen.io/kaseybon
-      icon: imgs/codepen.svg
+      icon: codepen
       tags: ["code"]
   - account:
       title: GitHub
       url: https://github.com/kaseybon
-      icon: imgs/github.svg
+      icon: github
       tags: ["code"]
   - account:
       title: Instagram
       url: https://instagram.com/kaseybon
-      icon: imgs/instagram.svg
+      icon: instagram
       tags: ["crafts", "food", "kids"]
   - account:
       title: Pinterest
       url: https://pinterest.com/kaseybon
-      icon: imgs/pinterest.svg
+      icon: pinterest
       tags: ["crafts", "food", "geekery", "kids"]
   - account:
       title: Sparkbox
       url: http://seesparkbox.com/foundry/author/kasey_bonifacio
-      icon: imgs/sparkbox.svg
+      icon: sparkbox
       tags: ["code"]
   - account:
       title: Tumblr
       url: http://kaseybon.tumblr.com
-      icon: imgs/tumblr.svg
+      icon: tumblr
       tags: ["crafts", "geekery", "kids"]
   - account:
       title: Twitter
       url: https://twitter.com/_kaseybon
-      icon: imgs/twitter.svg
+      icon: twitter
       tags: ["code", "geekery"]

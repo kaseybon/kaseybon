@@ -46,10 +46,6 @@
   line-height: 40px;
   margin: 0 0 $sp;
 }
-.account__image {
-  max-width: 80px;
-  padding: 5% 5% 0;
-}
 
 @media print {
   .account__item {
@@ -77,8 +73,5 @@
     border: none;
     line-height: 30px;
     font-size: 18px;
-  }
-  .account__image {
-    display: none;
   }
 }
