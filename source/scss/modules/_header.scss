@@ -1,39 +1,26 @@
 .header {
   background: $c--white;
   padding: $sp;
-  text-align: center;
+  z-index: 200;
+
+  position: -webkit-sticky; // for Safari
+  position: sticky; // for Firefox & final spec
+  top: 0px; // _required_. (Alternatively, bottom, left or right, depending on direction of scroll)
 
   &__title {
     color: $c--tomato;
-    font-size: 30px;
-
-    @media (min-width: 600px) {
-      font-size: 50px;
-    }
+    font-size: 24px;
+    margin: 0;
   }
 
-  &__description {
-    border-bottom: 2px dashed $c--silver;
-    margin: $sp 0;
-    padding-bottom: $sp;
-    position: relative;
-
-    &:after {
-      content: '';
-      position: absolute;
-      display: block;
-      width: 30px;
-      height: 30px;
-      bottom: -15px;
-      right: 0;
-      background: $c--white url(imgs/scissors.svg);
-    }
+  @media (min-width: 600px) {
+    padding: $sp/2;
   }
 }
 
 @media print {
   .header {
-    text-align: left;
+    text-align: center;
     padding: 0 0 20px;
 
     &__title {

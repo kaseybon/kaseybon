@@ -1,17 +1,21 @@
-  <header class="header" role="banner">
-    <div class="max-width">  
-      {{> _header }}
-    </div>
+  <header class="header sticky" role="banner">
+    {{> _header }}
   </header>
 
   <main class="content" role="main">
-    <div class="max-width-wide">  
+    <div class="t-white">
+      <div class="max-width">
+        {{> _about }}
+      </div>
+    </div>
+
+    <div class="max-width">
       {{> _accounts }}
     </div>
   </main>
 
   <footer class="footer" role="contentinfo">
-    <div class="max-width">  
+    <div class="max-width">
       {{> _footer }}
     </div>
   </footer>

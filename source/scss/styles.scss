@@ -1,22 +1,15 @@
 @import "base/config";
+@import "base/base";
 
 /*------------------------------------*\
   $MODULES
 \*------------------------------------*/
 
-/* header */
 @import "modules/header";
-
-/* menus */
 @import "modules/menu";
-
-/* accounts */
+@import "modules/about";
 @import "modules/account";
-
-/* content */
 @import "modules/content";
-
-/* footer */
 @import "modules/footer";
 
 /*------------------------------------*\
@@ -24,3 +17,9 @@
 \*------------------------------------*/
 
 @import "base/layout";
+
+/*------------------------------------*\
+  $THEMES
+\*------------------------------------*/
+
+@import "base/themes";

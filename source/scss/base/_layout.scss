@@ -3,17 +3,14 @@ body {
 }
 
 .max-width {
-  max-width: 43.750em;
-  margin: auto;
-}
-
-.max-width-wide {
   max-width: 72em;
   margin: auto;
+  padding: $sp;
 }
 
+
 @media print {
-  .max-width, .max-width-wide {
+  .max-width, .max-width--wide {
     max-width: none;
   }
 }
