@@ -11,24 +11,6 @@
       font-size: 50px;
     }
   }
-
-  &__description {
-    border-bottom: 2px dashed $c--silver;
-    margin: $sp 0;
-    padding-bottom: $sp;
-    position: relative;
-
-    &:after {
-      content: '';
-      position: absolute;
-      display: block;
-      width: 30px;
-      height: 30px;
-      bottom: -15px;
-      right: 0;
-      background: $c--white url(imgs/scissors.svg);
-    }
-  }
 }
 
 @media print {

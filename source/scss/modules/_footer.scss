@@ -1,7 +1,47 @@
 .footer {
-  padding: $sp;
-  text-align: center;
-  color: $c--silver;
+
+  &__social-nav {
+    position: relative;
+    text-align: center;
+    padding: $sp;
+    margin-bottom: $sp;
+    border-bottom: 2px dashed currentColor;
+
+    &:after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 30px;
+      height: 30px;
+      bottom: -15px;
+      right: 0;
+      background: $c--smoke url(imgs/scissors.svg);
+    }
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      margin: 0 ($sp / 4);
+      opacity: 0.5;
+      transition: opacity 0.5s;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      @media (min-width: 600px) {
+        margin: 0 ($sp / 2);
+      }
+    }
+
+    img {
+      width: 40px;
+
+      @media (min-width: 600px) {
+        width: 60px;
+      }
+    }
+  }
 }
 
 @media print {
