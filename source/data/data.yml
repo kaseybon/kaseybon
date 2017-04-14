@@ -3,6 +3,23 @@ site:
   tagline: Crafty. Web. Geek.
   bio: 'My name is Kasey Bonifacio and I''m passionate about web development and love constantly learning new ways to make the web more awesome. When I can pry myself away from the computer, I can be found spending time with family, cooking, or being crafty.'
 
+projects:
+  - project:
+      title: Apprentice At
+      url: apprentice.at
+      icon: apprentice-at
+      description: An apprenticeship marketplace built by apprentices for future apprentices.
+  - project:
+      title: Girls Can Code
+      url: girlscancode.io
+      icon: girls-can-code
+      description: An open source workshop to teach Girl Scouts how to build their first website.
+  - project:
+      title: Make It Sew
+      url: makeitsew.blog
+      icon: make-it-sew
+      description: Documenting the life of an out of control do it yourselfer.
+
 online_accounts:
   - account:
       title: CodePen

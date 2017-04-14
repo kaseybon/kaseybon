@@ -9,6 +9,25 @@ body {
   overflow: auto;
 }
 
+.flex-grid {
+  display: block;
+  box-sizing: border-box;
+
+  @media (min-width: 900px) {
+    margin-left: -($sp);
+    margin-right: -($sp);
+
+    &__item {
+      width: 50%;
+      float: left;
+
+      &:nth-child(even) {
+        clear: right;
+      }
+    }
+  }
+}
+
 
 @media print {
   .max-width, .max-width--wide {
