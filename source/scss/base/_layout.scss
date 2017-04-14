@@ -3,9 +3,10 @@ body {
 }
 
 .max-width {
-  max-width: 72em;
+  max-width: 68em;
   margin: auto;
   padding: $sp;
+  overflow: auto;
 }
 
 
