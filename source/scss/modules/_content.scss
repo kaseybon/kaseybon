@@ -12,6 +12,7 @@
   padding-bottom: ($sp / 2);
   margin-bottom: $sp;
   border-bottom: 2px dashed $c--smoke;
+  text-transform: uppercase;
 }
 
 @media print {
