@@ -1,17 +1,6 @@
 .header {
   background: $c--white;
   padding: $sp;
-  z-index: 200;
-
-  position: -webkit-sticky; // for Safari
-  position: sticky; // for Firefox & final spec
-  top: 0px; // _required_. (Alternatively, bottom, left or right, depending on direction of scroll)
-
-  &__title {
-    color: $c--tomato;
-    font-size: 24px;
-    margin: 0;
-  }
 
   @media (min-width: 600px) {
     padding: $sp/2;
@@ -22,11 +11,5 @@
   .header {
     text-align: center;
     padding: 0 0 20px;
-
-    &__title {
-      font-size: 30px;
-      margin-bottom: 20px;
-      color: #000;
-    }
   }
 }

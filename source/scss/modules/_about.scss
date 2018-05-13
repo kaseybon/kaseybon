@@ -4,7 +4,7 @@
   line-height: 1.8;
 
   &__title {
-    color: $c--tomato;
+    color: darken($c--tomato, 3%);
     font-size: 30px;
     text-align: center;
 
