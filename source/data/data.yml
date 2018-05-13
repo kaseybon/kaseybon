@@ -20,6 +20,23 @@ projects:
       icon: make-it-sew
       description: Documenting the life of an out of control do it yourselfer.
 
+writing:
+  - post:
+      title: Writing Better Release Notes
+      url: https://seesparkbox.com/foundry/writing_better_release_notes
+  - post:
+      title: Manageable Utility Systems with CSS Variables
+      url: https://seesparkbox.com/foundry/manageable_utility_systems_with_css_variables
+  - post:
+      title: Design Systems Are Great But…
+      url: https://seesparkbox.com/foundry/design_systems_are_great_but
+  - post:
+      title: Falling Back and Looking Forward
+      url: https://seesparkbox.com/foundry/how_to_support_ie
+  - post:
+      title: Refactoring Legacy CSS
+      url: https://seesparkbox.com/foundry/refactoring_legacy_css
+
 online_accounts:
   - account:
       title: CodePen

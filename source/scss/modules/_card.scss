@@ -1,8 +1,8 @@
 .card {
   box-sizing: border-box;
   display: block;
-  margin: $sp 0;
-  padding: $sp;
+  margin: ($sp / 2);
+  padding: ($sp);
   background: $c--white;
   border-radius: 5px;
   color: $c--smoke;
@@ -30,6 +30,22 @@
     padding-top: ($sp/2);
   }
 
+  &__pen {
+    content: url(imgs/pen.svg);
+    display: inline-block;
+    position: absolute;
+    top: 33%;
+    left: 1.25rem;
+  }
+
+  &__post {
+    line-height: 1rem;
+    margin: 0;
+    font-family: $f--heading;
+    font-size: 1rem;
+    padding-left: 1.25rem;
+  }
+
   @media (min-width: 600px) {
     position: relative;
     text-align: left;
@@ -45,10 +61,6 @@
       width: 30%;
       padding: $sp $sp 0 0;
     }
-  }
-
-  @media (min-width: 900px) {
-    margin: $sp;
   }
 }
 

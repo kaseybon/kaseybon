@@ -5,10 +5,9 @@ $f--primary: 'Open Sans', Helvetica, Arial, sans-serif;
 // Colors
 $c--tomato: tomato;
 $c--smoke: #626169;
-$c--silver: #bbbbbb;
-$c--white-smoke: #efefef;
+$c--silver: lighten($c--smoke, 40%);
+$c--white-smoke: lighten($c--smoke, 50%);
 $c--white: white;
 
-
 // Elements
-$sp: 5%;
+$sp: 2rem;

@@ -1,6 +1,17 @@
+.content {
+  a:not([class]) {
+    transition: background 0.5s;
+
+    &:hover {
+      background: $c--white-smoke;
+    }
+  }
+}
 .content__title {
   font-size: 30px;
-  text-align: center;
+  padding-bottom: ($sp / 2);
+  margin-bottom: $sp;
+  border-bottom: 2px dashed $c--smoke;
 }
 
 @media print {
