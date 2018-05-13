@@ -14,11 +14,6 @@ projects:
       url: girlscancode.io
       icon: girls-can-code
       description: An open source workshop to teach Girl Scouts how to build their first website.
-  - project:
-      title: Make It Sew
-      url: makeitsew.blog
-      icon: make-it-sew
-      description: Documenting the life of an out of control do it yourselfer.
 
 writing:
   - post:
