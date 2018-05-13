@@ -3,7 +3,7 @@ $f--heading: 'Comfortaa', Helvetica, Arial, sans-serif;
 $f--primary: 'Lato', Helvetica, Arial, sans-serif;
 
 // Colors
-$c--tomato: tomato;
+$c--tomato: darken(tomato, 3%);
 $c--smoke: #626169;
 $c--silver: lighten($c--smoke, 40%);
 $c--white-smoke: lighten($c--smoke, 50%);

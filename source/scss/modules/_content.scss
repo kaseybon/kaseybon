@@ -1,9 +1,13 @@
 .content {
   a:not([class]) {
-    transition: background 0.5s;
+    transition: all 0.5s;
+    border-bottom: 2px solid $c--smoke;
+    text-decoration: none;
+    background: $c--white-smoke;
 
     &:hover {
-      background: $c--white-smoke;
+      background: $c--white;
+      border-color: $c--tomato;
     }
   }
 }
@@ -11,7 +15,7 @@
   font-size: 30px;
   padding-bottom: ($sp / 2);
   margin-bottom: $sp;
-  border-bottom: 2px dashed $c--smoke;
+  border-bottom: 2px dashed currentColor;
   text-transform: uppercase;
 }
 
