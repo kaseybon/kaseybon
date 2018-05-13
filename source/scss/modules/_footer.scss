@@ -2,8 +2,7 @@
 
   &__social-nav {
     position: relative;
-    text-align: center;
-    padding: $sp;
+    padding: $sp 0;
     margin-bottom: $sp;
     border-bottom: 2px dashed currentColor;
 
@@ -22,11 +21,11 @@
       display: inline-block;
       text-decoration: none;
       margin: 0 ($sp / 4);
-      opacity: 0.5;
+      opacity: 1;
       transition: opacity 0.5s;
 
       &:hover {
-        opacity: 1;
+        opacity: 0.75;
       }
 
       @media (min-width: 600px) {

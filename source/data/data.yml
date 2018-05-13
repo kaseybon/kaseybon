@@ -30,14 +30,6 @@ online_accounts:
       url: https://github.com/kaseybon
       icon: github
   - account:
-      title: Pinterest
-      url: https://pinterest.com/kaseybon
-      icon: pinterest
-  - account:
-      title: Sparkbox
-      url: http://seesparkbox.com/foundry/author/kasey_bonifacio
-      icon: sparkbox
-  - account:
       title: Twitter
       url: https://twitter.com/_kaseybon
       icon: twitter
