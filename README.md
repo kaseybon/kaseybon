@@ -11,3 +11,10 @@ Install
 1. `$ grunt`
 
 Website compiles to `build/` folder
+
+To Do
+-----
+- [ ] New build process with pattern library
+- [ ] Update about section
+- [ ] New projects design
+- [ ] Add workshops and speaking section
