@@ -12,7 +12,6 @@
   },
   "homepage": "https://github.com/kaseybon/kaseybon",
   "scripts": {
-    "build": "node tasks/start.js",
     "start": "npm run clean && node tasks/start.js",
     "clean": "rimraf dist/",
     "copy": "node tasks/copy.js",

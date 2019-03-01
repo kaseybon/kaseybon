@@ -3,9 +3,9 @@
 
 :root {
   --spacing: 3rem;
-  
+
   @media (min-width: 600px) {
-    --spacing: 5rem; 
+    --spacing: 5rem;
   }
 }
 
@@ -17,7 +17,7 @@ body {
   color: #626169;
   padding: 0;
   border-top: 1.5rem solid darkslategray;
-  
+
   @media (min-width: 600px) {
     border-left: 1.5rem solid darkslategray;
     font-size: 18px;
@@ -26,24 +26,24 @@ body {
 }
 
 h1 {
-  font-family: 'Comfortaa', sans-serif; 
+  font-family: 'Comfortaa', sans-serif;
   font-size: 50px;
-  color: tomato;
+  color: darken(tomato, 5%);
   margin: 0 0 2rem;
-  line-height: 1; 
-  
+  line-height: 1;
+
   @media(min-width: 600px) {
     font-size: 80px;
   }
 }
 
 h2 {
-  font-family: 'Comfortaa', sans-serif; 
+  font-family: 'Comfortaa', sans-serif;
   font-size: 20px;
   margin: 5rem 0 1rem;
   line-height: 1;
   text-transform: uppercase;
-  
+
   @media(min-width: 600px) {
     font-size: 30px;
   }
@@ -57,7 +57,7 @@ a {
   color: darkslategray;
   -webkit-text-decoration: underline wavy;
   text-decoration: underline wavy slategray;
-  
+
   &:hover {
     background: #eee;
     -webkit-text-decoration-color: darkslategray;
@@ -69,9 +69,9 @@ main {
   max-width: 50rem;
   padding: 5rem 3rem 3rem;
   padding: 5rem var(--spacing) 3rem;
-  
+
   @media(min-width: 600px) {
-    padding-top: 10rem; 
+    padding-top: 10rem;
   }
 }
 
@@ -87,17 +87,17 @@ li {
   padding: 0 0 0 2rem;
   margin-bottom: 1.64rem;
   line-height: 1.2;
-  
+
   @media(min-width: 600px) {
     margin-bottom: 1.84rem;
   }
-  
+
   &:before {
     content: '';
     position: absolute;
     left: 0;
     top: 3px;
-    
+
     .is-speaking & {
       content: '💬';
     }
@@ -127,15 +127,15 @@ footer {
   padding: var(--spacing);
   font-size: 16px;
   background: #eee;
-  
+
   @media (min-width: 600px) {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     padding-top: 2rem;
   }
-  
+
   p {
     margin: 0;
   }
@@ -143,8 +143,8 @@ footer {
 
 nav {
   word-spacing: 0.5rem;
-  
+
   @media (min-width: 600px) {
-    word-spacing: 1rem;  
+    word-spacing: 1rem;
   }
 }
