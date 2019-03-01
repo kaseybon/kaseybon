@@ -5,8 +5,8 @@ const runAll = require('npm-run-all');
 console.log(`Starting ${process.env.NODE_ENV || 'development'}`);
 
 const tasks = {
-  production: ['clean', 'copy', 'sass', 'pages'],
-  development: ['clean', 'copy', 'sass', 'pages', 'server', 'watch']
+  production: ['copy', 'sass', 'pages'],
+  development: ['copy', 'sass', 'pages', 'server', 'watch']
 };
 
 function parallelTasks(env) {
@@ -18,5 +18,5 @@ function parallelTasks(env) {
 if (process.env.NODE_ENV === 'production') {
   shell.exec(`npm-run-all -p ${parallelTasks('production')}`);
 } else {
-  shell.exec(`npm-run-all -p ${parallelTasks('development')}`);
+  shell.exec(`npm-run-all  -p ${parallelTasks('development')}`);
 }
