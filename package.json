@@ -5,19 +5,11 @@
     "type": "git",
     "url": "https://github.com/kaseybon/kaseybon"
   },
-  "author": "",
+  "author": "Kasey Bonifacio",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kaseybon/kaseybon/issues"
   },
   "homepage": "https://github.com/kaseybon/kaseybon",
-  "devDependencies": {
-    "grunt": "~1.0.2",
-    "grunt-assemble": "^0.6.3",
-    "grunt-autoprefixer": "^3.0.4",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-watch": "~1.1.0",
-    "grunt-sass": "^2.1.0"
-  }
+  "devDependencies": {}
 }
