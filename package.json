@@ -12,12 +12,14 @@
   },
   "homepage": "https://github.com/kaseybon/kaseybon",
   "scripts": {
-    "start": "npm run clean && npm run sass",
+    "start": "npm run clean && npm run sass && npm run copy",
     "clean": "rimraf dist/",
+    "copy": "node tasks/copy.js",
     "sass": "node-sass src/scss/ -o dist/css/ --output-style compressed"
   },
   "devDependencies": {
     "node-sass": "^4.11.0",
-    "rimraf": "^2.6.3"
+    "rimraf": "^2.6.3",
+    "shelljs": "^0.8.3"
   }
 }
