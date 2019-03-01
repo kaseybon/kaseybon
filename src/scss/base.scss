@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Comfortaa');
+@import 'normalize';
+
+:root {
+  --spacing: 3rem;
+  
+  @media (min-width: 600px) {
+    --spacing: 5rem; 
+  }
+}
+
+// Base
+// ============================================
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.64;
+  color: #626169;
+  padding: 0;
+  border-top: 1.5rem solid darkslategray;
+  
+  @media (min-width: 600px) {
+    border-left: 1.5rem solid darkslategray;
+    font-size: 18px;
+    line-height: 1.84;
+  }
+}
+
+h1 {
+  font-family: 'Comfortaa', sans-serif; 
+  font-size: 50px;
+  color: tomato;
+  margin: 0 0 2rem;
+  line-height: 1; 
+  
+  @media(min-width: 600px) {
+    font-size: 80px;
+  }
+}
+
+h2 {
+  font-family: 'Comfortaa', sans-serif; 
+  font-size: 20px;
+  margin: 5rem 0 1rem;
+  line-height: 1;
+  text-transform: uppercase;
+  
+  @media(min-width: 600px) {
+    font-size: 30px;
+  }
+}
+
+p {
+  margin-bottom: 1.6rem;
+}
+
+a {
+  color: darkslategray;
+  -webkit-text-decoration: underline wavy;
+  text-decoration: underline wavy slategray;
+  
+  &:hover {
+    background: #eee;
+    -webkit-text-decoration-color: darkslategray;
+    text-decoration-color: darkslategray;
+  }
+}
+
+main {
+  max-width: 50rem;
+  padding: 5rem 3rem 3rem;
+  padding: 5rem var(--spacing) 3rem;
+  
+  @media(min-width: 600px) {
+    padding-top: 10rem; 
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 0 2rem 0.5rem;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  padding: 0 0 0 16px;
+  padding: 0 0 0 2rem;
+  margin-bottom: 1.64rem;
+  line-height: 1.2;
+  
+  @media(min-width: 600px) {
+    margin-bottom: 1.84rem;
+  }
+  
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 3px;
+    
+    .is-speaking & {
+      content: '💬';
+    }
+
+    .is-writing & {
+      content: '✏️';
+    }
+  }
+}
+
+.date {
+  font-size: 14px;
+  font-weight: bold;
+  color: darkslategray;
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+footer {
+  padding: 3rem;
+  padding: var(--spacing);
+  font-size: 16px;
+  background: #eee;
+  
+  @media (min-width: 600px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-top: 2rem;
+  }
+  
+  p {
+    margin: 0;
+  }
+}
+
+nav {
+  word-spacing: 0.5rem;
+  
+  @media (min-width: 600px) {
+    word-spacing: 1rem;  
+  }
+}

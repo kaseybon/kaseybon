@@ -11,5 +11,13 @@
     "url": "https://github.com/kaseybon/kaseybon/issues"
   },
   "homepage": "https://github.com/kaseybon/kaseybon",
-  "devDependencies": {}
+  "scripts": {
+    "start": "npm run clean && npm run sass",
+    "clean": "rimraf dist/",
+    "sass": "node-sass src/scss/ -o dist/css/ --output-style compressed"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "rimraf": "^2.6.3"
+  }
 }
