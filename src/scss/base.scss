@@ -18,7 +18,7 @@ body {
   padding: 0;
   background-color: darkslategray;
   margin-top: 1.5rem;
-  transition: margin 1s;
+  transition: margin 0.5s;
 
 
   @media (min-width: 600px) {
@@ -87,11 +87,12 @@ main {
     transform: rotate(-45deg);
 
     position: absolute;
-    top: -3.5rem;
-    left: -3.5rem;
-    transition: all 1s;
+    top: -6rem;
+    left: -6rem;
+    transition: all 0.5s;
 
     @media (min-width: 600px) {
+
       top: 0;
       left: -1.5rem;
     }
