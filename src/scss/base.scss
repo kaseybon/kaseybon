@@ -16,10 +16,14 @@ body {
   line-height: 1.64;
   color: #626169;
   padding: 0;
-  border-top: 1.5rem solid darkslategray;
+  background-color: darkslategray;
+  margin-top: 1.5rem;
+  transition: margin 1s;
+
 
   @media (min-width: 600px) {
-    border-left: 1.5rem solid darkslategray;
+    margin-top: 4rem;
+    margin-left: 1.5rem;
     font-size: 18px;
     line-height: 1.84;
   }
@@ -66,13 +70,36 @@ a {
 }
 
 main {
-  max-width: 50rem;
   padding: 5rem 3rem 3rem;
   padding: 5rem var(--spacing) 3rem;
+  background-color: white;
 
   @media(min-width: 600px) {
-    padding-top: 10rem;
+    padding-top: 8rem;
   }
+
+  &::before {
+    content: '';
+    display: block;
+    height: 6rem;
+    width: 6rem;
+    background-color: darkslategray;
+    transform: rotate(-45deg);
+
+    position: absolute;
+    top: -3.5rem;
+    left: -3.5rem;
+    transition: all 1s;
+
+    @media (min-width: 600px) {
+      top: 0;
+      left: -1.5rem;
+    }
+  }
+}
+
+.max-width {
+  max-width: 50rem;
 }
 
 ul {
