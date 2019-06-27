@@ -16,14 +16,14 @@ body {
   line-height: 1.64;
   color: #626169;
   padding: 0;
-  background-color: darkslategray;
+  background: url('/positive.png');
   margin-top: 1.5rem;
   transition: margin 0.5s;
 
 
   @media (min-width: 600px) {
     margin-top: 4rem;
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
     font-size: 18px;
     line-height: 1.84;
   }
@@ -47,6 +47,7 @@ h2 {
   margin: 5rem 0 1rem;
   line-height: 1;
   text-transform: uppercase;
+  color: black;
 
   @media(min-width: 600px) {
     font-size: 30px;
@@ -58,49 +59,35 @@ p {
 }
 
 a {
-  color: darkslategray;
+  color: black;
   -webkit-text-decoration: underline wavy;
-  text-decoration: underline wavy slategray;
+  text-decoration: underline wavy black;
 
   &:hover {
     background: #eee;
-    -webkit-text-decoration-color: darkslategray;
-    text-decoration-color: darkslategray;
+    -webkit-text-decoration-color: darken(tomato, 5%);
+    text-decoration-color: darken(tomato, 5%);
   }
 }
 
-main {
+.shadow {
+  filter: drop-shadow(0 0 5px rgba(black, 0.25));
+}
+
+.max-width {
+  box-sizing: border-box;
+  max-width: 63rem;
+}
+
+.clipped-corner {
   padding: 5rem 3rem 3rem;
   padding: 5rem var(--spacing) 3rem;
   background-color: white;
 
   @media(min-width: 600px) {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 4rem, 4rem 0);
     padding-top: 8rem;
   }
-
-  &::before {
-    content: '';
-    display: block;
-    height: 6rem;
-    width: 6rem;
-    background-color: darkslategray;
-    transform: rotate(-45deg);
-
-    position: absolute;
-    top: -6rem;
-    left: -6rem;
-    transition: all 0.5s;
-
-    @media (min-width: 600px) {
-
-      top: 0;
-      left: -1.5rem;
-    }
-  }
-}
-
-.max-width {
-  max-width: 50rem;
 }
 
 ul {
@@ -139,7 +126,7 @@ li {
 .date {
   font-size: 14px;
   font-weight: bold;
-  color: darkslategray;
+  color: black;
   display: block;
 }
 
@@ -154,7 +141,8 @@ footer {
   padding: 3rem;
   padding: var(--spacing);
   font-size: 16px;
-  background: #eee;
+  background: black;
+  color: white;
 
   @media (min-width: 600px) {
     display: flex;
@@ -166,6 +154,15 @@ footer {
 
   p {
     margin: 0;
+  }
+
+  a {
+    color: white;
+    text-decoration: underline wavy white;
+
+    &:hover {
+      color: black;
+    }
   }
 }
 
