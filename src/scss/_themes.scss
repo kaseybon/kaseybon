@@ -1,0 +1,44 @@
+.t-mermaid {
+  --secondary: #FF725C;
+  --tertiary: #FFDFDF;
+  --featured: #9EEBCF;
+  --light: #FFFCEB;  
+  
+  --featured-bg:  #{svg('<svg height="30" width="60" viewbox="0 0 60 30"><circle fill="#9EEBCF" r="30" cx="30" cy="0" /></svg>') center};
+}
+
+.t-pumpkin {
+  --secondary: #19A974;
+  --tertiary: #9EEBCF;
+  --featured: #FFB700;
+  --light: #FFFCEB;
+  
+  --featured-bg:  #{svg('<svg height="30" width="60" viewbox="0 0 60 30"><circle fill="#FFB700" r="30" cx="30" cy="0" /></svg>') center};
+}
+
+.t-tomato {
+  --secondary: #FFB700;
+  --tertiary: #FBF1A9;
+  --featured: #FF725C;
+  --light: #E8FDF5;
+  
+  --featured-bg:  #{svg('<svg height="30" width="60" viewbox="0 0 60 30"><circle fill="#FF725C" r="30" cx="30" cy="0" /></svg>') center};
+}
+
+.t-berry {
+  --secondary: #19A974;
+  --tertiary: #FFDFDF;
+  --featured: #D5008F;
+  --light: #FFDFDF;
+  
+  --featured-bg:  #{svg('<svg height="30" width="60" viewbox="0 0 60 30"><circle fill="#D5008F" r="30" cx="30" cy="0" /></svg>') center};
+}
+
+.t-emerald {
+  --secondary: #FF725C;
+  --tertiary: #E8FDF5;
+  --featured: #19A974;
+  --light: #E8FDF5;
+  
+  --featured-bg:  #{svg('<svg height="30" width="60" viewbox="0 0 60 30"><circle fill="#19A974" r="30" cx="30" cy="0" /></svg>') center};
+}

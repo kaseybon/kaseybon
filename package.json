@@ -17,6 +17,7 @@
     "copy": "node tasks/copy.js",
     "pages": "node tasks/pages.js",
     "sass": "node-sass src/scss/ -o dist/css/ --output-style compressed",
+    "scripts": "node tasks/scripts.js",
     "server": "node tasks/server.js",
     "watch": "node tasks/watch.js"
   },

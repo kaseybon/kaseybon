@@ -5,8 +5,8 @@ const runAll = require('npm-run-all');
 console.log(`Starting ${process.env.NODE_ENV || 'development'}`);
 
 const tasks = {
-  production: ['copy', 'sass', 'pages'],
-  development: ['copy', 'sass', 'pages', 'server', 'watch']
+  production: ['copy', 'sass', 'scripts', 'pages'],
+  development: ['copy', 'sass', 'scripts', 'pages', 'server', 'watch']
 };
 
 function parallelTasks(env) {

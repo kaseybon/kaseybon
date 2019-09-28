@@ -14,3 +14,7 @@ chokidar.watch('src/pages/**/*').on('change', () => {
 chokidar.watch('src/public/**/*').on('change', () => {
   shell.exec('npm run copy');
 });
+
+chokidar.watch('src/js/**/*').on('change', () => {
+  shell.exec('npm run scripts');
+});

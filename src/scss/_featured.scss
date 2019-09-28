@@ -1,0 +1,11 @@
+.featured {
+  background: var(--light);
+  font-size: 24px;
+  padding: 2rem;
+  margin: 0 0 2rem;
+  
+  @media (min-width: $bp-featured) {
+    padding: 3rem;
+    margin: 0 -3rem 3rem;
+  }
+}
