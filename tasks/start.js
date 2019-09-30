@@ -2,10 +2,9 @@ const shell = require('shelljs');
 const map = require('lodash/map');
 const runAll = require('npm-run-all');
 
-console.log(`Starting ${process.env.NODE_ENV || 'development'}`);
+console.log('Building kaseybon.com');
 
 const tasks = {
-  production: ['copy', 'sass', 'scripts', 'pages'],
   development: ['copy', 'sass', 'scripts', 'pages', 'server', 'watch']
 };
 
@@ -15,8 +14,4 @@ function parallelTasks(env) {
   return `${list.join(' ')}`;
 }
 
-if (process.env.NODE_ENV === 'production') {
-  shell.exec(`npm-run-all -p ${parallelTasks('production')}`);
-} else {
-  shell.exec(`npm-run-all  -p ${parallelTasks('development')}`);
-}
+shell.exec(`npm-run-all  -p ${parallelTasks('development')}`);
