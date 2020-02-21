@@ -21,14 +21,14 @@
   &:after {
     content: '';
     display: block;
-    height: 30px;
+    height: 1.875rem;
     
     position: absolute;
-    bottom: -25px;
+    bottom: -1.5625rem;
     left: 0;
     right: 0;
     
     background: var(--featured-bg);
-    filter: drop-shadow(-2px 4px 0 $primary);
+    filter: drop-shadow(-0.125rem 0.25rem 0 $primary);
   }
 }

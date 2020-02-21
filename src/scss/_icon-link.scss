@@ -1,20 +1,20 @@
 .icon-links {
-  padding: 0 2rem;
-  
-  @media (min-width: $bp-featured) {
-    padding: 0;
-  }
-
   &__link {
     display: inline-block;
     text-decoration: none;
     margin: 0.5rem;
+    
+    &:hover .icon-links__icon {
+      transform: translateY(-0.5rem);
+    }
   }
   
   &__icon {
-    height: 60px;
-    width: 60px;
-    filter: drop-shadow(-2px 2px 0 $primary);
+    height: 3.75rem;
+    width: 3.75rem;
+    filter: drop-shadow(-0.125rem 0.125rem 0 $primary);
     fill: var(--secondary);
+    
+    transition: transform $transition-speed;
   }
 }

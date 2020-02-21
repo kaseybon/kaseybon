@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Francois+One|Open+Sans:400,700&display=swap');
 
-$bp-hero: 600px; 
-$bp-featured: 820px;
+$bp-hero: 37.5rem; 
+$bp-featured: 51.25rem;
+
+$transition-speed: 0.5s;
 
 @import "mixins";
 @import "themes";
