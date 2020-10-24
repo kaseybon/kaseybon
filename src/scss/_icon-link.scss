@@ -3,18 +3,17 @@
     display: inline-block;
     text-decoration: none;
     margin: 0.5rem;
-    
+
     &:hover .icon-links__icon {
       transform: translateY(-0.5rem);
     }
   }
-  
+
   &__icon {
     height: 3.75rem;
     width: 3.75rem;
-    filter: drop-shadow(-0.125rem 0.125rem 0 $primary);
     fill: var(--secondary);
-    
+
     transition: transform $transition-speed;
   }
 }
