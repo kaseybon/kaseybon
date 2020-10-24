@@ -3,6 +3,9 @@ $bp-featured: 51.25rem;
 
 $transition-speed: 0.5s;
 
+$primary: #001B44;
+
+@import "functions";
 @import "mixins";
 @import "themes";
 @import "elements";

@@ -1,5 +1,3 @@
-$primary: #001B44;
-
 body {
   padding: 0;
   margin: 0;
@@ -7,18 +5,20 @@ body {
   color: $primary;
   font-size: 1.125rem;
   line-height: 1.6;
- 
-  background-color: var(--light);
-  transition: background $transition-speed;
-  
-  @media (min-width: 800px) {
-    background-color: white;
+
+  @include themed-styles {
+    background-color: var(--light);
+    transition: background $transition-speed;
+
+    @media (min-width: 800px) {
+      background-color: white;
+    }
   }
 }
 
 p {
   margin: 0 0 1.6rem;
-  
+
   &:last-child {
     margin: 0;
   }
@@ -27,19 +27,24 @@ p {
 a:not([class]) {
   color: inherit;
   font-weight: 700;
-  background: var(--tertiary);
-  text-decoration: none;
-  border-bottom: 0.125rem solid var(--secondary);
-  transition: background $transition-speed;
   display: inline-block;
   padding: 0 0.25rem;
-  
+  transition: background $transition-speed;
+
   &:hover {
-    background: var(--secondary);
+    background-color: $primary;
+    color: white;
   }
-  
-  .no-js & {
-    text-decoration: underline;
+
+  @include themed-styles {
+    text-decoration: none;
+    background: var(--tertiary);
+    border-bottom: 0.125rem solid var(--secondary);
+
+    &:hover {
+      background: var(--secondary);
+      color: $primary;
+    }
   }
 }
 
@@ -50,14 +55,21 @@ main {
 h1 {
   margin: 0;
   font-family: 'Francois One';
-  font-size: 6.25rem;
+  font-size: 4.25rem;
+
+  @media (min-width: 800px) {
+    font-size: 6.25rem;
+  }
 }
 
 h2 {
   font-family: 'Francois One';
   font-size: 2rem;
-  text-shadow: -0.125rem 0.125rem 0 var(--tertiary);
   text-transform: uppercase;
+
+  @include themed-styles {
+    text-shadow: -0.125rem 0.125rem 0 var(--tertiary);
+  }
 }
 
 ul {
