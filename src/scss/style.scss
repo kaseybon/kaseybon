@@ -1,18 +1,21 @@
-$bp-hero: 37.5rem;
-$bp-featured: 51.25rem;
-
 $transition-speed: 0.5s;
-
 $primary: #001B44;
+$border: 2px solid $primary;
+$shadow-border: 2px solid var(--featured);
+$container-offset: 0.75rem;
 
 @import "functions";
 @import "mixins";
 @import "themes";
 @import "elements";
 
-@import "layout";
+@import "grid";
 
-@import "hero";
-@import "featured";
+@import "container";
+@import "avatar";
 @import "icon-link";
 @import "footer";
+
+.extra-spacing {
+  padding: calc(var(--spacing) * 2);
+}

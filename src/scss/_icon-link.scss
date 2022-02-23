@@ -1,8 +1,7 @@
 .icon-links {
   &__link {
-    display: inline-block;
+    display: block;
     text-decoration: none;
-    margin: 0.5rem;
 
     &:hover .icon-links__icon {
       transform: translateY(-0.5rem);
@@ -10,8 +9,8 @@
   }
 
   &__icon {
-    height: 3.75rem;
-    width: 3.75rem;
+    height: 3rem;
+    width: 3rem;
     fill: $primary;
 
     transition: transform $transition-speed;

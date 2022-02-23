@@ -1,0 +1,34 @@
+.avatar {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 50%;
+  margin-right:var(--spacing);
+  border: $border;
+
+  @media (min-width: 400px) {
+    float: left;
+    shape-outside: circle(50%);
+  }
+}
+
+.sweater {
+  color: var(--featured);
+}
+.shirt {
+  color: var(--tertiary);
+}
+.hair {
+  color: #2B2318;
+}
+.skin {
+  color: #DABE95;
+}
+.blush {
+  color: #E7AE9B;
+}
+.lips {
+  color: #FD6E8A;
+}
+.eyes {
+  color: #1A1202;
+}

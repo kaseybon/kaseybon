@@ -1,10 +1,22 @@
+:root {
+  --spacing: 1rem;
+
+  @media (min-width: 600px) {
+    --spacing: 2rem;
+  }
+
+   @media (min-width: 900px) {
+    --spacing: 2.5rem;
+  }
+}
+
 body {
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   color: $primary;
-  font-size: 1.125rem;
-  line-height: 1.6;
+  font-size: 1.25rem;
+  line-height: 1.8;
 
   @include themed-styles {
     background-color: var(--light);
@@ -17,10 +29,12 @@ body {
 }
 
 p {
-  margin: 0 0 1.6rem;
+  &:first-line {
+    font-weight: bold;
+  }
 
-  &:last-child {
-    margin: 0;
+  @media (min-width: 400px) {
+    margin: calc(var(--spacing) * 2.5) 0 0;
   }
 }
 
@@ -29,7 +43,6 @@ a:not([class]) {
   font-weight: 700;
   display: inline-block;
   padding: 0 0.25rem;
-  transition: background $transition-speed;
 
   &:hover {
     background-color: $primary;
@@ -38,8 +51,8 @@ a:not([class]) {
 
   @include themed-styles {
     text-decoration: none;
-    background: var(--tertiary);
-    border-bottom: 0.125rem solid var(--secondary);
+    border: 0.125rem dashed var(--secondary);
+    transition: background $transition-speed;
 
     &:hover {
       background: var(--secondary);
@@ -48,28 +61,23 @@ a:not([class]) {
   }
 }
 
-main {
-  margin-bottom: 3rem;
-}
-
 h1 {
-  margin: 0;
+  margin: calc(var(--spacing) * 2) 0 0;
   font-family: 'Francois One';
-  font-size: 4.25rem;
+  font-size: 3.5rem;
+  line-height: 1;
 
   @media (min-width: 800px) {
-    font-size: 6.25rem;
+    font-size: 4.5rem;
+  }
+
+  @include themed-styles {
+    text-shadow: 0.25rem 0.25rem 0 var(--featured);
   }
 }
 
 h2 {
-  font-family: 'Francois One';
-  font-size: 2rem;
-  text-transform: uppercase;
-
-  @include themed-styles {
-    text-shadow: -0.125rem 0.125rem 0 var(--tertiary);
-  }
+  font-size: 1.1rem;
 }
 
 ul {

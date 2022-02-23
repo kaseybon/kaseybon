@@ -1,0 +1,286 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="280" height="320" viewBox="0 0 280 320" xml:space="preserve">
+  <style>
+    .spring {
+      color: #A7DBD8;
+    }
+    .mustard {
+      color: #F7B518;
+    }
+    .purple {
+      color: #601848;
+    }
+    .hair {
+      color: #2B2318;
+    }
+    .skin {
+      color: #DABE95;
+    }
+    .blush {
+      color: #E7AE9B;
+    }
+    .lips {
+      color: #FD6E8A;
+    }
+    .eyes {
+      color: #1A1202;
+    }
+  </style>
+
+  <symbol id="x" width="20" height="20" stroke="currentColor">
+    <line stroke-width="5" stroke-linecap="round" x1="3" y1="3" x2="17" y2="17"></line>
+    <line stroke-width="5" stroke-linecap="round" x1="3" y1="17" x2="17" y2="3"></line>
+  </symbol>
+
+  <!-- Col 1 -->
+  <use xlink:href="#x" x="0" y="0" class="spring"></use>
+  <use xlink:href="#x" x="0" y="20" class="spring"></use>
+  <use xlink:href="#x" x="0" y="40" class="spring"></use>
+  <use xlink:href="#x" x="0" y="60" class="spring"></use>
+  <use xlink:href="#x" x="0" y="80" class="spring"></use>
+  <use xlink:href="#x" x="0" y="100" class="spring"></use>
+  <use xlink:href="#x" x="0" y="120" class="spring"></use>
+  <use xlink:href="#x" x="0" y="140" class="spring"></use>
+  <use xlink:href="#x" x="0" y="160" class="spring"></use>
+  <use xlink:href="#x" x="0" y="180" class="spring"></use>
+  <use xlink:href="#x" x="0" y="200" class="spring"></use>
+  <use xlink:href="#x" x="0" y="220" class="spring"></use>
+  <use xlink:href="#x" x="0" y="240" class="spring"></use>
+  <use xlink:href="#x" x="0" y="260" class="spring"></use>
+  <use xlink:href="#x" x="0" y="280" class="spring"></use>
+  <use xlink:href="#x" x="0" y="300" class="spring"></use>
+
+  <!-- Col 2 -->
+  <use xlink:href="#x" x="20" y="0" class="spring"></use>
+  <use xlink:href="#x" x="20" y="20" class="spring"></use>
+  <use xlink:href="#x" x="20" y="40" class="spring"></use>
+  <use xlink:href="#x" x="20" y="60" class="spring"></use>
+  <use xlink:href="#x" x="20" y="80" class="spring"></use>
+  <use xlink:href="#x" x="20" y="100" class="spring"></use>
+  <use xlink:href="#x" x="20" y="120" class="spring"></use>
+  <use xlink:href="#x" x="20" y="140" class="spring"></use>
+  <use xlink:href="#x" x="20" y="160" class="spring"></use>
+  <use xlink:href="#x" x="20" y="180" class="spring"></use>
+  <use xlink:href="#x" x="20" y="200" class="spring"></use>
+  <use xlink:href="#x" x="20" y="220" class="spring"></use>
+  <use xlink:href="#x" x="20" y="240" class="spring"></use>
+  <use xlink:href="#x" x="20" y="260" class="spring"></use>
+  <use xlink:href="#x" x="20" y="280" class="spring"></use>
+  <use xlink:href="#x" x="20" y="300" class="spring"></use>
+
+  <!-- Col 3 -->
+  <use xlink:href="#x" x="40" y="0" class="spring"></use>
+  <use xlink:href="#x" x="40" y="20" class="spring"></use>
+  <use xlink:href="#x" x="40" y="40" class="spring"></use>
+  <use xlink:href="#x" x="40" y="60" class="spring"></use>
+  <use xlink:href="#x" x="40" y="80" class="spring"></use>
+  <use xlink:href="#x" x="40" y="100" class="spring"></use>
+  <use xlink:href="#x" x="40" y="120" class="spring"></use>
+  <use xlink:href="#x" x="40" y="140" class="spring"></use>
+  <use xlink:href="#x" x="40" y="160" class="spring"></use>
+  <use xlink:href="#x" x="40" y="180" class="spring"></use>
+  <use xlink:href="#x" x="40" y="200" class="spring"></use>
+  <use xlink:href="#x" x="40" y="220" class="spring"></use>
+  <use xlink:href="#x" x="40" y="240" class="spring"></use>
+  <use xlink:href="#x" x="40" y="260" class="mustard"></use>
+  <use xlink:href="#x" x="40" y="280" class="mustard"></use>
+  <use xlink:href="#x" x="40" y="300" class="mustard"></use>
+
+  <!-- Col 4 -->
+  <use xlink:href="#x" x="60" y="0" class="spring"></use>
+  <use xlink:href="#x" x="60" y="20" class="spring"></use>
+  <use xlink:href="#x" x="60" y="40" class="spring"></use>
+  <use xlink:href="#x" x="60" y="60" class="spring"></use>
+  <use xlink:href="#x" x="60" y="80" class="hair"></use>
+  <use xlink:href="#x" x="60" y="100" class="hair"></use>
+  <use xlink:href="#x" x="60" y="120" class="hair"></use>
+  <use xlink:href="#x" x="60" y="140" class="hair"></use>
+  <use xlink:href="#x" x="60" y="160" class="hair"></use>
+  <use xlink:href="#x" x="60" y="180" class="hair"></use>
+  <use xlink:href="#x" x="60" y="200" class="hair"></use>
+  <use xlink:href="#x" x="60" y="220" class="hair"></use>
+  <use xlink:href="#x" x="60" y="240" class="mustard"></use>
+  <use xlink:href="#x" x="60" y="260" class="mustard"></use>
+  <use xlink:href="#x" x="60" y="280" class="mustard"></use>
+  <use xlink:href="#x" x="60" y="300" class="mustard"></use>
+
+  <!-- Col 5 -->
+  <use xlink:href="#x" x="80" y="0" class="spring"></use>
+  <use xlink:href="#x" x="80" y="20" class="spring"></use>
+  <use xlink:href="#x" x="80" y="40" class="spring"></use>
+  <use xlink:href="#x" x="80" y="60" class="hair"></use>
+  <use xlink:href="#x" x="80" y="80" class="hair"></use>
+  <use xlink:href="#x" x="80" y="100" class="hair"></use>
+  <use xlink:href="#x" x="80" y="120" class="skin"></use>
+  <use xlink:href="#x" x="80" y="140" class="skin"></use>
+  <use xlink:href="#x" x="80" y="160" class="skin"></use>
+  <use xlink:href="#x" x="80" y="180" class="hair"></use>
+  <use xlink:href="#x" x="80" y="200" class="hair"></use>
+  <use xlink:href="#x" x="80" y="220" class="mustard"></use>
+  <use xlink:href="#x" x="80" y="240" class="mustard"></use>
+  <use xlink:href="#x" x="80" y="260" class="mustard"></use>
+  <use xlink:href="#x" x="80" y="280" class="mustard"></use>
+  <use xlink:href="#x" x="80" y="300" class="mustard"></use>
+
+  <!-- Col 6 -->
+  <use xlink:href="#x" x="100" y="0" class="spring"></use>
+  <use xlink:href="#x" x="100" y="20" class="spring"></use>
+  <use xlink:href="#x" x="100" y="40" class="hair"></use>
+  <use xlink:href="#x" x="100" y="60" class="hair"></use>
+  <use xlink:href="#x" x="100" y="80" class="hair"></use>
+  <use xlink:href="#x" x="100" y="100" class="hair"></use>
+  <use xlink:href="#x" x="100" y="120" class="eyes"></use>
+  <use xlink:href="#x" x="100" y="140" class="blush"></use>
+  <use xlink:href="#x" x="100" y="160" class="skin"></use>
+  <use xlink:href="#x" x="100" y="180" class="skin"></use>
+  <use xlink:href="#x" x="100" y="200" class="hair"></use>
+  <use xlink:href="#x" x="100" y="220" class="mustard"></use>
+  <use xlink:href="#x" x="100" y="240" class="mustard"></use>
+  <use xlink:href="#x" x="100" y="260" class="mustard"></use>
+  <use xlink:href="#x" x="100" y="280" class="mustard"></use>
+  <use xlink:href="#x" x="100" y="300" class="mustard"></use>
+
+  <!-- Col 7 -->
+  <use xlink:href="#x" x="120" y="0" class="spring"></use>
+  <use xlink:href="#x" x="120" y="20" class="spring"></use>
+  <use xlink:href="#x" x="120" y="40" class="hair"></use>
+  <use xlink:href="#x" x="120" y="60" class="hair"></use>
+  <use xlink:href="#x" x="120" y="80" class="hair"></use>
+  <use xlink:href="#x" x="120" y="100" class="hair"></use>
+  <use xlink:href="#x" x="120" y="120" class="skin"></use>
+  <use xlink:href="#x" x="120" y="140" class="skin"></use>
+  <use xlink:href="#x" x="120" y="160" class="lips"></use>
+  <use xlink:href="#x" x="120" y="180" class="skin"></use>
+  <use xlink:href="#x" x="120" y="200" class="skin"></use>
+  <use xlink:href="#x" x="120" y="220" class="skin"></use>
+  <use xlink:href="#x" x="120" y="240" class="purple"></use>
+  <use xlink:href="#x" x="120" y="260" class="purple"></use>
+  <use xlink:href="#x" x="120" y="280" class="purple"></use>
+  <use xlink:href="#x" x="120" y="300" class="purple"></use>
+
+  <!-- Col 8 -->
+  <use xlink:href="#x" x="140" y="0" class="spring"></use>
+  <use xlink:href="#x" x="140" y="20" class="spring"></use>
+  <use xlink:href="#x" x="140" y="40" class="hair"></use>
+  <use xlink:href="#x" x="140" y="60" class="hair"></use>
+  <use xlink:href="#x" x="140" y="80" class="hair"></use>
+  <use xlink:href="#x" x="140" y="100" class="hair"></use>
+  <use xlink:href="#x" x="140" y="120" class="skin"></use>
+  <use xlink:href="#x" x="140" y="140" class="skin"></use>
+  <use xlink:href="#x" x="140" y="160" class="lips"></use>
+  <use xlink:href="#x" x="140" y="180" class="skin"></use>
+  <use xlink:href="#x" x="140" y="200" class="skin"></use>
+  <use xlink:href="#x" x="140" y="220" class="skin"></use>
+  <use xlink:href="#x" x="140" y="240" class="purple"></use>
+  <use xlink:href="#x" x="140" y="260" class="purple"></use>
+  <use xlink:href="#x" x="140" y="280" class="purple"></use>
+  <use xlink:href="#x" x="140" y="300" class="purple "></use>
+
+  <!-- Col 9 -->
+  <use xlink:href="#x" x="160" y="0" class="spring"></use>
+  <use xlink:href="#x" x="160" y="20" class="spring"></use>
+  <use xlink:href="#x" x="160" y="40" class="hair"></use>
+  <use xlink:href="#x" x="160" y="60" class="hair"></use>
+  <use xlink:href="#x" x="160" y="80" class="hair"></use>
+  <use xlink:href="#x" x="160" y="100" class="hair"></use>
+  <use xlink:href="#x" x="160" y="120" class="eyes"></use>
+  <use xlink:href="#x" x="160" y="140" class="blush"></use>
+  <use xlink:href="#x" x="160" y="160" class="skin"></use>
+  <use xlink:href="#x" x="160" y="180" class="skin"></use>
+  <use xlink:href="#x" x="160" y="200" class="hair"></use>
+  <use xlink:href="#x" x="160" y="220" class="mustard"></use>
+  <use xlink:href="#x" x="160" y="240" class="mustard"></use>
+  <use xlink:href="#x" x="160" y="260" class="mustard"></use>
+  <use xlink:href="#x" x="160" y="280" class="mustard"></use>
+  <use xlink:href="#x" x="160" y="300" class="mustard"></use>
+
+  <!-- Col 10 -->
+  <use xlink:href="#x" x="180" y="0" class="spring"></use>
+  <use xlink:href="#x" x="180" y="20" class="spring"></use>
+  <use xlink:href="#x" x="180" y="40" class="spring"></use>
+  <use xlink:href="#x" x="180" y="60" class="hair"></use>
+  <use xlink:href="#x" x="180" y="80" class="hair"></use>
+  <use xlink:href="#x" x="180" y="100" class="hair"></use>
+  <use xlink:href="#x" x="180" y="120" class="skin"></use>
+  <use xlink:href="#x" x="180" y="140" class="skin"></use>
+  <use xlink:href="#x" x="180" y="160" class="skin"></use>
+  <use xlink:href="#x" x="180" y="180" class="hair"></use>
+  <use xlink:href="#x" x="180" y="200" class="hair"></use>
+  <use xlink:href="#x" x="180" y="220" class="mustard"></use>
+  <use xlink:href="#x" x="180" y="240" class="mustard"></use>
+  <use xlink:href="#x" x="180" y="260" class="mustard"></use>
+  <use xlink:href="#x" x="180" y="280" class="mustard"></use>
+  <use xlink:href="#x" x="180" y="300" class="mustard"></use>
+
+
+  <!-- Col 11 -->
+  <use xlink:href="#x" x="200" y="0" class="spring"></use>
+  <use xlink:href="#x" x="200" y="20" class="spring"></use>
+  <use xlink:href="#x" x="200" y="40" class="spring"></use>
+  <use xlink:href="#x" x="200" y="60" class="spring"></use>
+  <use xlink:href="#x" x="200" y="80" class="hair"></use>
+  <use xlink:href="#x" x="200" y="100" class="hair"></use>
+  <use xlink:href="#x" x="200" y="120" class="hair"></use>
+  <use xlink:href="#x" x="200" y="140" class="hair"></use>
+  <use xlink:href="#x" x="200" y="160" class="hair"></use>
+  <use xlink:href="#x" x="200" y="180" class="hair"></use>
+  <use xlink:href="#x" x="200" y="200" class="hair"></use>
+  <use xlink:href="#x" x="200" y="220" class="hair"></use>
+  <use xlink:href="#x" x="200" y="240" class="mustard"></use>
+  <use xlink:href="#x" x="200" y="260" class="mustard"></use>
+  <use xlink:href="#x" x="200" y="280" class="mustard"></use>
+  <use xlink:href="#x" x="200" y="300" class="mustard"></use>
+
+  <!-- Col 12 -->
+  <use xlink:href="#x" x="220" y="0" class="spring"></use>
+  <use xlink:href="#x" x="220" y="20" class="spring"></use>
+  <use xlink:href="#x" x="220" y="40" class="spring"></use>
+  <use xlink:href="#x" x="220" y="60" class="spring"></use>
+  <use xlink:href="#x" x="220" y="80" class="spring"></use>
+  <use xlink:href="#x" x="220" y="100" class="spring"></use>
+  <use xlink:href="#x" x="220" y="120" class="spring"></use>
+  <use xlink:href="#x" x="220" y="140" class="spring"></use>
+  <use xlink:href="#x" x="220" y="160" class="spring"></use>
+  <use xlink:href="#x" x="220" y="180" class="spring"></use>
+  <use xlink:href="#x" x="220" y="200" class="spring"></use>
+  <use xlink:href="#x" x="220" y="220" class="spring"></use>
+  <use xlink:href="#x" x="220" y="240" class="spring"></use>
+  <use xlink:href="#x" x="220" y="260" class="mustard"></use>
+  <use xlink:href="#x" x="220" y="280" class="mustard"></use>
+  <use xlink:href="#x" x="220" y="300" class="mustard"></use>
+
+  <!-- Col 13 -->
+  <use xlink:href="#x" x="240" y="0" class="spring"></use>
+  <use xlink:href="#x" x="240" y="20" class="spring"></use>
+  <use xlink:href="#x" x="240" y="40" class="spring"></use>
+  <use xlink:href="#x" x="240" y="60" class="spring"></use>
+  <use xlink:href="#x" x="240" y="80" class="spring"></use>
+  <use xlink:href="#x" x="240" y="100" class="spring"></use>
+  <use xlink:href="#x" x="240" y="120" class="spring"></use>
+  <use xlink:href="#x" x="240" y="140" class="spring"></use>
+  <use xlink:href="#x" x="240" y="160" class="spring"></use>
+  <use xlink:href="#x" x="240" y="180" class="spring"></use>
+  <use xlink:href="#x" x="240" y="200" class="spring"></use>
+  <use xlink:href="#x" x="240" y="220" class="spring"></use>
+  <use xlink:href="#x" x="240" y="240" class="spring"></use>
+  <use xlink:href="#x" x="240" y="260" class="spring"></use>
+  <use xlink:href="#x" x="240" y="280" class="spring"></use>
+  <use xlink:href="#x" x="240" y="300" class="spring"></use>
+
+  <!-- Col 14 -->
+  <use xlink:href="#x" x="260" y="0" class="spring"></use>
+  <use xlink:href="#x" x="260" y="20" class="spring"></use>
+  <use xlink:href="#x" x="260" y="40" class="spring"></use>
+  <use xlink:href="#x" x="260" y="60" class="spring"></use>
+  <use xlink:href="#x" x="260" y="80" class="spring"></use>
+  <use xlink:href="#x" x="260" y="100" class="spring"></use>
+  <use xlink:href="#x" x="260" y="120" class="spring"></use>
+  <use xlink:href="#x" x="260" y="140" class="spring"></use>
+  <use xlink:href="#x" x="260" y="160" class="spring"></use>
+  <use xlink:href="#x" x="260" y="180" class="spring"></use>
+  <use xlink:href="#x" x="260" y="200" class="spring"></use>
+  <use xlink:href="#x" x="260" y="220" class="spring"></use>
+  <use xlink:href="#x" x="260" y="240" class="spring"></use>
+  <use xlink:href="#x" x="260" y="260" class="spring"></use>
+  <use xlink:href="#x" x="260" y="280" class="spring"></use>
+  <use xlink:href="#x" x="260" y="300" class="spring"></use>
+</svg>

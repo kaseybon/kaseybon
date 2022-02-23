@@ -1,0 +1,34 @@
+.container {
+  position: relative;
+  border: $border;
+  background-color: white;
+  margin: 0 $container-offset $container-offset 0;
+
+  &::after {
+    content: '';
+    display: block;
+    border: $shadow-border;
+    background-color: var(--light);
+
+    position: absolute;
+    top: $container-offset;
+    left: $container-offset;
+    right: -$container-offset;
+    bottom: -$container-offset;
+    z-index: -1;
+  }
+
+  &__title {
+    padding: 0.5rem 1rem;
+    margin: 0;
+    border-bottom: $border;
+
+    @include themed-styles {
+      background-color: var(--light);
+    }
+  }
+
+  &__content {
+    padding: var(--spacing);
+  }
+}
