@@ -93,4 +93,8 @@ li {
 
 abbr {
   text-decoration-color: var(--secondary);
+
+  a:hover & {
+    text-decoration-color: var(--light);
+  }
 }
