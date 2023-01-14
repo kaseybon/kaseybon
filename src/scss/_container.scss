@@ -7,7 +7,6 @@
   &::after {
     content: '';
     display: block;
-    border: $shadow-border;
     background-color: var(--light);
 
     position: absolute;

@@ -13,10 +13,10 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: $primary;
-  font-size: 1.25rem;
-  line-height: 1.8;
+  font-size: 1rem;
+  line-height: 1.6;
 
   @include themed-styles {
     background-color: var(--light);
@@ -29,41 +29,18 @@ body {
 }
 
 p {
-  &:first-line {
-    font-weight: bold;
-  }
-
   @media (min-width: 400px) {
     margin: calc(var(--spacing) * 2.5) 0 0;
   }
 }
 
 a:not([class]) {
-  color: inherit;
-  font-weight: 700;
-  display: inline-block;
-  padding: 0 0.25rem;
-
-  &:hover {
-    background-color: $primary;
-    color: white;
-  }
-
-  @include themed-styles {
-    text-decoration: none;
-    border: 0.125rem dashed var(--secondary);
-    transition: background $transition-speed;
-
-    &:hover {
-      background: var(--secondary);
-      color: $primary;
-    }
-  }
+  color: var(--featured);
 }
 
-h1 {
+h1:not([class]) {
   margin: calc(var(--spacing) * 2) 0 0;
-  font-family: 'Francois One';
+  
   font-size: 3.5rem;
   line-height: 1;
 
@@ -76,7 +53,7 @@ h1 {
   }
 }
 
-h2 {
+h2:not([class]) {
   font-size: 1.1rem;
 }
 
@@ -89,12 +66,4 @@ ul {
 li {
   display: inline-block;
   margin: 0.25rem;
-}
-
-abbr {
-  text-decoration-color: var(--secondary);
-
-  a:hover & {
-    text-decoration-color: var(--light);
-  }
 }
