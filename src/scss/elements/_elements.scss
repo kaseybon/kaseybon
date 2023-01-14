@@ -1,17 +1,5 @@
-:root {
-  --spacing: 1rem;
-
-  @media (min-width: 600px) {
-    --spacing: 2rem;
-  }
-
-   @media (min-width: 900px) {
-    --spacing: 2.5rem;
-  }
-}
-
 body {
-  padding: 0;
+  padding: var(--spacing);
   margin: 0;
   font-family: 'Poppins', sans-serif;
   color: $primary;
@@ -29,9 +17,7 @@ body {
 }
 
 p {
-  @media (min-width: 400px) {
-    margin: calc(var(--spacing) * 2.5) 0 0;
-  }
+  margin: var(--spacing) 0;
 }
 
 a:not([class]) {
@@ -39,18 +25,9 @@ a:not([class]) {
 }
 
 h1:not([class]) {
-  margin: calc(var(--spacing) * 2) 0 0;
-  
+  margin: calc(var(--spacing) * 2) 0 0; 
   font-size: 3.5rem;
   line-height: 1;
-
-  @media (min-width: 800px) {
-    font-size: 4.5rem;
-  }
-
-  @include themed-styles {
-    text-shadow: 0.25rem 0.25rem 0 var(--featured);
-  }
 }
 
 h2:not([class]) {

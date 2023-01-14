@@ -1,14 +1,9 @@
 .avatar {
   width: 100%;
   max-width: 150px;
+  max-height: 150px;
   border-radius: 50%;
-  margin-right:var(--spacing);
   border: $border;
-
-  @media (min-width: 400px) {
-    float: left;
-    shape-outside: circle(50%);
-  }
 }
 
 .sweater {

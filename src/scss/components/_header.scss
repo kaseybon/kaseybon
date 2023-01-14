@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  gap: var(--spacing);
+  align-items: center;
+  margin-bottom: calc(var(--spacing) * 2);
+  
+  @media (min-width: $breakpoint--2-columns) {
+    flex-direction: column;
+  }
+}
