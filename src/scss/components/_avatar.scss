@@ -2,15 +2,16 @@
   width: 100%;
   max-width: 150px;
   max-height: 150px;
+  border: var(--border-thick) var(--theme-primary);
   border-radius: 50%;
-  border: $border;
+  background-color: var(--theme-secondary);
 }
 
 .sweater {
-  color: var(--featured);
+  color: var(--theme-primary);
 }
 .shirt {
-  color: var(--tertiary);
+  color: #9EEBCF;
 }
 .hair {
   color: #2B2318;
