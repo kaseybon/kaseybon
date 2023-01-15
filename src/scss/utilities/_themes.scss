@@ -3,6 +3,9 @@
   --secondary: #19A974;
   --tertiary: #9EEBCF;
   --light: #FFFCEB;
+  
+  --theme-primary: #FFB700;
+  --theme-secondary: #FFFCEB;
 }
 
 .t-tomato {
@@ -11,6 +14,9 @@
   --secondary: #FFB700;
   --tertiary: #FBF1A9;
   --light: #E8FDF5;
+  
+  --theme-primary: #FF4136;
+  --theme-secondary: #FFF6F6;
 }
 
 .t-berry {
@@ -18,11 +24,17 @@
   --secondary: #19A974;
   --tertiary: #FFDFDF;
   --light: #FFDFDF;
+  
+  --theme-primary: #D5008F;
+  --theme-secondary: #FFF8F8;
 }
 
-.t-emerald {
+.t-kale {
   --featured: #137752;
   --secondary: #FF725C;
   --tertiary: #E8FDF5;
   --light: #E8FDF5;
+  
+  --theme-primary: #19A974;
+  --theme-secondary: #F1FEF9;
 }
