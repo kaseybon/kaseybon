@@ -2,18 +2,9 @@ body {
   padding: var(--spacing);
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  color: $primary;
+  color: var(--color-primary);
   font-size: 1rem;
   line-height: 1.6;
-
-  @include themed-styles {
-    background-color: var(--light);
-    transition: background $transition-speed;
-
-    @media (min-width: 800px) {
-      background-color: white;
-    }
-  }
 }
 
 p {
@@ -21,17 +12,7 @@ p {
 }
 
 a:not([class]) {
-  color: var(--featured);
-}
-
-h1:not([class]) {
-  margin: calc(var(--spacing) * 2) 0 0; 
-  font-size: 3.5rem;
-  line-height: 1;
-}
-
-h2:not([class]) {
-  font-size: 1.1rem;
+  color: var(--color-secondary);
 }
 
 ul {

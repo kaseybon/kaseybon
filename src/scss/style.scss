@@ -63,7 +63,7 @@
 //    and our UI components are often composed of Objects and Components
 @import "components/header";
 @import "components/footer";
-@import "components/container";
+@import "components/section";
 @import "components/avatar";
 @import "components/icon-link";
 
@@ -73,3 +73,4 @@
 //    Utilities and helper classes with ability to override anything
 //    which goes before in the triangle, eg. hide helper class
 @import "utilities/themes";
+@import "utilities/text";
