@@ -17,3 +17,12 @@
   --theme-primary: #1AAD77;
   --theme-secondary: #F1FEF9;
 }
+
+.t-blueberry {
+  --theme-primary: #00449E;
+  --theme-secondary: #F6FFFE;
+  
+  @media (prefers-color-scheme: dark) {
+    --theme-primary: #357EDD;
+  }
+}
