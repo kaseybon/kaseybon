@@ -13,6 +13,11 @@
     max-width: 600px;
     transform: rotate(35deg);
     transition: all $transition-speed;
+    display: none;
+    
+    @media (min-width: ($breakpoint--hero - 1)) {
+      display: block;
+    }
 
     @media (min-width: $breakpoint--hero) {
       right: -25%;
