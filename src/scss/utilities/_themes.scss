@@ -16,6 +16,10 @@
 .t-kale {
   --theme-primary: #1AAD77;
   --theme-secondary: #F1FEF9;
+  
+  @media (prefers-color-scheme: dark) {
+    --theme-primary: #137752;
+  }
 }
 
 .t-blueberry {

@@ -1,0 +1,41 @@
+.hero {
+  position: relative;
+  transition: padding-top $transition-speed;
+  
+  @media (min-width: $breakpoint--hero) {
+    padding-top: 17rem;
+  }
+
+  &__keyboard {
+    position: absolute;
+    top: -1rem;
+    right: -300%;
+    max-width: 600px;
+    transform: rotate(35deg);
+    transition: all $transition-speed;
+
+    @media (min-width: $breakpoint--hero) {
+      right: -25%;
+    }
+
+    @media (min-width: $breakpoint--hero-rotate) {
+      transform: rotate(25deg);
+    }
+  }
+}
+
+.board {
+  color: var(--color-primary);
+
+  @media (prefers-color-scheme: dark) {
+    color: var(--color-secondary);
+  }
+}
+
+.key {
+  color: #E8FDF5;
+}
+
+.featured {
+  color: var(--theme-primary);
+}
