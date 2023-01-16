@@ -1,10 +1,18 @@
-.copy {
-  font-size: 0.8rem;
-  line-height: 1.6;
-  display: inline-block;
+.footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  &__cat {
+    max-width: 100px;
+    margin-bottom: calc(var(--spacing) * -1);
+  }
 }
 
-.no-js .message,
-body:not([class^="t-"]) .message {
-  display: none;
+.face {
+  color: var(color-primary);
+}
+.cat {
+  color: var(--theme-primary);
 }

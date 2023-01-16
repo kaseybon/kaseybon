@@ -23,10 +23,6 @@
 }
 
 .t-blueberry {
-  --theme-primary: #00449E;
+  --theme-primary: #357EDD;
   --theme-secondary: #F6FFFE;
-  
-  @media (prefers-color-scheme: dark) {
-    --theme-primary: #357EDD;
-  }
 }
