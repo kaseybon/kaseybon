@@ -22,6 +22,20 @@
 }
 
 .text-large {
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   font-weight: 400;
+  
+  @media (min-width: $breakpoint--2-columns) {
+    font-size: 1.25rem;
+  }
+}
+
+.text-visually-hidden {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
 }
