@@ -2,7 +2,14 @@
   --spacing: 1rem;
 
   --border-thick: 2px solid;
+  --page-background: white;
 
   --color-primary: #001B44;
   --color-secondary: #137752;
+  
+  @media (prefers-color-scheme: dark) {
+    --page-background: #001B44;
+    --color-primary: white;
+    --color-secondary: #1AAD77;
+  }
 }
