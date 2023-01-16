@@ -7,6 +7,10 @@
   --color-primary: #001B44;
   --color-secondary: #137752;
   
+  // no-js falls back to the pumpkin theme
+  --theme-primary: #FFB700;
+  --theme-secondary: #FFFCEB;
+  
   @media (prefers-color-scheme: dark) {
     --page-background: #001B44;
     --color-primary: white;
