@@ -1,3 +1,5 @@
+@use "../settings/variables";
+
 .header {
   display: grid;
   grid-column-gap: var(--spacing);
@@ -5,7 +7,7 @@
   grid-template-rows: auto auto;
   margin-bottom: calc(var(--spacing) * 2);
 
-  @media (min-width: $breakpoint--2-columns) {
+  @media (min-width: variables.$breakpoint--2-columns) {
     display: flex;
     gap: var(--spacing);
     flex-direction: column;
@@ -19,7 +21,7 @@
   &__name {
     align-self: end;
     
-    @media (min-width: $breakpoint--2-columns) {
+    @media (min-width: variables.$breakpoint--2-columns) {
       align-self: unset;
     }
   }

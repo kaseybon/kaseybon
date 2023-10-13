@@ -1,3 +1,5 @@
+@use "../settings/variables";
+
 .page {
   display: grid;
   gap: var(--spacing);
@@ -12,7 +14,7 @@
     "content"
     "footer"; 
   
-  @media (min-width: $breakpoint--2-columns) {
+  @media (min-width: variables.$breakpoint--2-columns) {
     grid-template-columns: 250px 1fr;
     grid-template-areas: 
       "header content"

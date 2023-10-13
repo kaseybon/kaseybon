@@ -1,8 +1,10 @@
+@use "../settings/variables";
+
 .hero {
   position: relative;
-  transition: padding-top $transition-speed;
+  transition: padding-top variables.$transition-speed;
   
-  @media (min-width: $breakpoint--hero) {
+  @media (min-width: variables.$breakpoint--hero) {
     padding-top: 17rem;
   }
 
@@ -12,18 +14,18 @@
     right: -300%;
     max-width: 600px;
     transform: rotate(35deg);
-    transition: all $transition-speed;
+    transition: all variables.$transition-speed;
     display: none;
     
-    @media (min-width: ($breakpoint--hero - 1)) {
+    @media (min-width: (variables.$breakpoint--hero - 1)) {
       display: block;
     }
 
-    @media (min-width: $breakpoint--hero) {
+    @media (min-width: variables.$breakpoint--hero) {
       right: -25%;
     }
 
-    @media (min-width: $breakpoint--hero-rotate) {
+    @media (min-width: variables.$breakpoint--hero-rotate) {
       transform: rotate(25deg);
     }
   }

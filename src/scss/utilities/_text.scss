@@ -1,3 +1,5 @@
+@use "../settings/variables";
+
 .text-featured {
   font-family: "DM Serif Display";
   font-weight: 400;
@@ -25,7 +27,7 @@
   font-size: 1.75rem;
   font-weight: 400;
   
-  @media (min-width: $breakpoint--2-columns) {
+  @media (min-width: variables.$breakpoint--2-columns) {
     font-size: 1.25rem;
   }
 }
