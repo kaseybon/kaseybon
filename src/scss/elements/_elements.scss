@@ -25,6 +25,10 @@ p {
 
 a:not([class]) {
   color: var(--color-secondary);
+
+  &:hover {
+    text-decoration-style: wavy;
+  }
 }
 
 ul {
