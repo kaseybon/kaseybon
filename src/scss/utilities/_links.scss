@@ -1,0 +1,12 @@
+.link-pill {
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid var(--theme-primary);
+  color: var(--color-primary);
+  border-radius: 2rem;
+  padding: 0.25rem 1rem;
+
+  &:hover {
+    background-color: var(--theme-secondary);
+  }
+}
