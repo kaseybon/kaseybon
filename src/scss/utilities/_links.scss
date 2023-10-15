@@ -1,3 +1,5 @@
+@use "../settings/variables";
+
 .link-pill {
   display: inline-block;
   text-decoration: none;
@@ -5,8 +7,9 @@
   color: var(--color-primary);
   border-radius: 2rem;
   padding: 0.25rem 1rem;
-
+  transition: transform variables.$transition-speed;
+  
   &:hover {
-    background-color: var(--theme-secondary);
+    transform: translateY(-0.5rem);
   }
 }
