@@ -4,7 +4,6 @@
   display: grid;
   gap: var(--spacing);
   box-sizing: border-box;
-  margin: auto;
   padding: var(--spacing);
   max-width: 1200px;
   min-height: calc(100vh - var(--spacing)); // adjusting for the decorative border on the body element
