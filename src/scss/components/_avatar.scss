@@ -1,3 +1,14 @@
+@use "../settings/variables";
+
+.avatar-link:focus,
+.avatar-link:hover {
+  outline: none;
+  
+  .avatar {
+    transform: scale(1.1);
+  }
+}
+
 .avatar {
   width: 100%;
   max-width: 150px;
@@ -5,7 +16,8 @@
   border: var(--border-thick) var(--theme-primary);
   border-radius: 50%;
   background-color: var(--theme-secondary);
-  margin: auto;
+  margin: 0 auto calc(var(--spacing) / 2);
+  transition: transform variables.$transition-speed;
 }
 
 .sweater {
