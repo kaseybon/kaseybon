@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ meta.description }}">
+  <meta name="keywords" content="{{ meta.keywords }}">
+  <title>{{ meta.title }} :: Frontend Development, Web Accessibility, and Design Systems</title>
+
+  <link href="/css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffffff">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <div class="overflow">
+    <div class="page">
+      <header class="page__header header">
+        <a href="#mainContent" class="link-pill skip-to">Skip to Content</a>
+        <a href="/" class="header__avatar avatar-link text-unlink">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 280 320" xml:space="preserve" class="avatar">
+          <symbol id="x" width="20" height="20" stroke="currentColor">
+            <line stroke-width="5" stroke-linecap="round" x1="3" y1="3" x2="17" y2="17"></line>
+            <line stroke-width="5" stroke-linecap="round" x1="3" y1="17" x2="17" y2="3"></line>
+          </symbol>
+        
+          <!-- Col 3 -->
+          <use xlink:href="#x" x="40" y="260" class="sweater"></use>
+          <use xlink:href="#x" x="40" y="280" class="sweater"></use>
+          <use xlink:href="#x" x="40" y="300" class="sweater"></use>
+        
+          <!-- Col 4 -->
+          <use xlink:href="#x" x="60" y="80" class="hair"></use>
+          <use xlink:href="#x" x="60" y="100" class="hair"></use>
+          <use xlink:href="#x" x="60" y="120" class="hair"></use>
+          <use xlink:href="#x" x="60" y="140" class="hair"></use>
+          <use xlink:href="#x" x="60" y="160" class="hair"></use>
+          <use xlink:href="#x" x="60" y="180" class="hair"></use>
+          <use xlink:href="#x" x="60" y="200" class="hair"></use>
+          <use xlink:href="#x" x="60" y="220" class="hair"></use>
+          <use xlink:href="#x" x="60" y="240" class="sweater"></use>
+          <use xlink:href="#x" x="60" y="260" class="sweater"></use>
+          <use xlink:href="#x" x="60" y="280" class="sweater"></use>
+          <use xlink:href="#x" x="60" y="300" class="sweater"></use>
+        
+          <!-- Col 5 -->
+          <use xlink:href="#x" x="80" y="60" class="hair"></use>
+          <use xlink:href="#x" x="80" y="80" class="hair"></use>
+          <use xlink:href="#x" x="80" y="100" class="hair"></use>
+          <use xlink:href="#x" x="80" y="120" class="skin"></use>
+          <use xlink:href="#x" x="80" y="140" class="skin"></use>
+          <use xlink:href="#x" x="80" y="160" class="skin"></use>
+          <use xlink:href="#x" x="80" y="180" class="hair"></use>
+          <use xlink:href="#x" x="80" y="200" class="hair"></use>
+          <use xlink:href="#x" x="80" y="220" class="sweater"></use>
+          <use xlink:href="#x" x="80" y="240" class="sweater"></use>
+          <use xlink:href="#x" x="80" y="260" class="sweater"></use>
+          <use xlink:href="#x" x="80" y="280" class="sweater"></use>
+          <use xlink:href="#x" x="80" y="300" class="sweater"></use>
+        
+          <!-- Col 6 -->
+          <use xlink:href="#x" x="100" y="40" class="hair"></use>
+          <use xlink:href="#x" x="100" y="60" class="hair"></use>
+          <use xlink:href="#x" x="100" y="80" class="hair"></use>
+          <use xlink:href="#x" x="100" y="100" class="hair"></use>
+          <use xlink:href="#x" x="100" y="120" class="eyes"></use>
+          <use xlink:href="#x" x="100" y="140" class="blush"></use>
+          <use xlink:href="#x" x="100" y="160" class="skin"></use>
+          <use xlink:href="#x" x="100" y="180" class="skin"></use>
+          <use xlink:href="#x" x="100" y="200" class="hair"></use>
+          <use xlink:href="#x" x="100" y="220" class="sweater"></use>
+          <use xlink:href="#x" x="100" y="240" class="sweater"></use>
+          <use xlink:href="#x" x="100" y="260" class="sweater"></use>
+          <use xlink:href="#x" x="100" y="280" class="sweater"></use>
+          <use xlink:href="#x" x="100" y="300" class="sweater"></use>
+        
+          <!-- Col 7 -->
+          <use xlink:href="#x" x="120" y="40" class="hair"></use>
+          <use xlink:href="#x" x="120" y="60" class="hair"></use>
+          <use xlink:href="#x" x="120" y="80" class="hair"></use>
+          <use xlink:href="#x" x="120" y="100" class="hair"></use>
+          <use xlink:href="#x" x="120" y="120" class="skin"></use>
+          <use xlink:href="#x" x="120" y="140" class="skin"></use>
+          <use xlink:href="#x" x="120" y="160" class="lips"></use>
+          <use xlink:href="#x" x="120" y="180" class="skin"></use>
+          <use xlink:href="#x" x="120" y="200" class="skin"></use>
+          <use xlink:href="#x" x="120" y="220" class="skin"></use>
+          <use xlink:href="#x" x="120" y="240" class="shirt"></use>
+          <use xlink:href="#x" x="120" y="260" class="shirt"></use>
+          <use xlink:href="#x" x="120" y="280" class="shirt"></use>
+          <use xlink:href="#x" x="120" y="300" class="shirt"></use>
+        
+          <!-- Col 8 -->
+          <use xlink:href="#x" x="140" y="40" class="hair"></use>
+          <use xlink:href="#x" x="140" y="60" class="hair"></use>
+          <use xlink:href="#x" x="140" y="80" class="hair"></use>
+          <use xlink:href="#x" x="140" y="100" class="hair"></use>
+          <use xlink:href="#x" x="140" y="120" class="skin"></use>
+          <use xlink:href="#x" x="140" y="140" class="skin"></use>
+          <use xlink:href="#x" x="140" y="160" class="lips"></use>
+          <use xlink:href="#x" x="140" y="180" class="skin"></use>
+          <use xlink:href="#x" x="140" y="200" class="skin"></use>
+          <use xlink:href="#x" x="140" y="220" class="skin"></use>
+          <use xlink:href="#x" x="140" y="240" class="shirt"></use>
+          <use xlink:href="#x" x="140" y="260" class="shirt"></use>
+          <use xlink:href="#x" x="140" y="280" class="shirt"></use>
+          <use xlink:href="#x" x="140" y="300" class="shirt"></use>
+        
+          <!-- Col 9 -->
+          <use xlink:href="#x" x="160" y="40" class="hair"></use>
+          <use xlink:href="#x" x="160" y="60" class="hair"></use>
+          <use xlink:href="#x" x="160" y="80" class="hair"></use>
+          <use xlink:href="#x" x="160" y="100" class="hair"></use>
+          <use xlink:href="#x" x="160" y="120" class="eyes"></use>
+          <use xlink:href="#x" x="160" y="140" class="blush"></use>
+          <use xlink:href="#x" x="160" y="160" class="skin"></use>
+          <use xlink:href="#x" x="160" y="180" class="skin"></use>
+          <use xlink:href="#x" x="160" y="200" class="hair"></use>
+          <use xlink:href="#x" x="160" y="220" class="sweater"></use>
+          <use xlink:href="#x" x="160" y="240" class="sweater"></use>
+          <use xlink:href="#x" x="160" y="260" class="sweater"></use>
+          <use xlink:href="#x" x="160" y="280" class="sweater"></use>
+          <use xlink:href="#x" x="160" y="300" class="sweater"></use>
+        
+          <!-- Col 10 -->
+          <use xlink:href="#x" x="180" y="60" class="hair"></use>
+          <use xlink:href="#x" x="180" y="80" class="hair"></use>
+          <use xlink:href="#x" x="180" y="100" class="hair"></use>
+          <use xlink:href="#x" x="180" y="120" class="skin"></use>
+          <use xlink:href="#x" x="180" y="140" class="skin"></use>
+          <use xlink:href="#x" x="180" y="160" class="skin"></use>
+          <use xlink:href="#x" x="180" y="180" class="hair"></use>
+          <use xlink:href="#x" x="180" y="200" class="hair"></use>
+          <use xlink:href="#x" x="180" y="220" class="sweater"></use>
+          <use xlink:href="#x" x="180" y="240" class="sweater"></use>
+          <use xlink:href="#x" x="180" y="260" class="sweater"></use>
+          <use xlink:href="#x" x="180" y="280" class="sweater"></use>
+          <use xlink:href="#x" x="180" y="300" class="sweater"></use>
+        
+          <!-- Col 11 -->
+          <use xlink:href="#x" x="200" y="80" class="hair"></use>
+          <use xlink:href="#x" x="200" y="100" class="hair"></use>
+          <use xlink:href="#x" x="200" y="120" class="hair"></use>
+          <use xlink:href="#x" x="200" y="140" class="hair"></use>
+          <use xlink:href="#x" x="200" y="160" class="hair"></use>
+          <use xlink:href="#x" x="200" y="180" class="hair"></use>
+          <use xlink:href="#x" x="200" y="200" class="hair"></use>
+          <use xlink:href="#x" x="200" y="220" class="hair"></use>
+          <use xlink:href="#x" x="200" y="240" class="sweater"></use>
+          <use xlink:href="#x" x="200" y="260" class="sweater"></use>
+          <use xlink:href="#x" x="200" y="280" class="sweater"></use>
+          <use xlink:href="#x" x="200" y="300" class="sweater"></use>
+        
+          <!-- Col 12 -->
+          <use xlink:href="#x" x="220" y="260" class="sweater"></use>
+          <use xlink:href="#x" x="220" y="280" class="sweater"></use>
+          <use xlink:href="#x" x="220" y="300" class="sweater"></use>
+        </svg>
+        </a>
+        
+        <span class="header__name text-large">Kasey Bonifacio</span>
+
+        <nav aria-labelledby="connect">
+          <h2 id="connect" class="text-visually-hidden">Connect with me</h2>
+
+          <ul class="icon-links">
+            <li class="icon-links__item">
+              <a href="https://www.linkedin.com/in/kaseybon/" class="icon-links__link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="icon-links__icon">
+                  <title>LinkedIn</title>
+                  <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/>
+                </svg>
+                LinkedIn
+              </a>
+            </li>
+            <li class="icon-links__item">
+              <a href="https://github.com/kaseybon" class="icon-links__link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="icon-links__icon">
+                  <title>GitHub</title>
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+                GitHub
+              </a>
+            </li>
+            <li class="icon-links__item">
+              <a href="https://codepen.io/kaseybon/" class="icon-links__link">
+                <svg viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" class="icon-links__icon">
+                  <title>CodePen</title>
+                  <g fill-rule="nonzero" transform="scale(1.24835)">
+                    <path d="m60 0c-33.137 0-60 26.863-60 60 0 33.138 26.863 60 60 60s60-26.861 60-60c0-33.137-26.862-60-60-60zm0 110.146c-27.65 0-50.146-22.496-50.146-50.146s22.496-50.146 50.146-50.146 50.145 22.496 50.145 50.146-22.495 50.146-50.145 50.146z"/>
+                    <path d="m97.071 48.281c-.007-.047-.019-.092-.026-.139-.016-.09-.032-.18-.056-.267-.014-.053-.033-.104-.05-.154-.025-.078-.051-.156-.082-.232-.021-.053-.047-.105-.071-.156-.033-.072-.068-.142-.108-.21-.029-.051-.061-.1-.091-.148-.043-.066-.087-.131-.135-.193-.035-.047-.072-.093-.109-.138-.051-.059-.104-.117-.159-.172-.042-.043-.083-.086-.127-.125-.059-.053-.119-.104-.18-.152-.048-.037-.095-.074-.145-.109-.019-.012-.035-.027-.053-.039l-33.91-22.609c-1.071-.714-2.466-.714-3.537 0l-33.911 22.607c-.018.012-.034.027-.053.039-.05.035-.097.072-.144.109-.062.049-.123.1-.181.152-.045.039-.086.082-.128.125-.055.055-.108.113-.158.172-.038.045-.075.091-.11.138-.047.062-.092.127-.134.193-.032.049-.062.098-.092.148-.039.068-.074.139-.108.21-.024.051-.049.104-.071.156-.031.076-.057.154-.082.232-.017.051-.035.102-.05.154-.023.087-.039.177-.056.267-.008.047-.02.092-.025.139-.019.137-.029.275-.029.416v22.607c0 .141.011.279.029.418.006.045.018.092.025.137.017.09.032.18.056.268.015.053.033.104.05.154.025.078.051.155.082.233.021.053.047.104.071.154.034.072.069.143.108.213.029.049.06.098.092.146.042.066.087.131.134.193.035.049.072.094.11.139.05.059.103.117.158.172.042.043.083.086.128.124.058.053.118.104.181.152.047.037.094.074.144.109.019.012.035.027.053.039l33.911 22.607c.536.357 1.152.537 1.769.537.616 0 1.233-.18 1.768-.537l33.911-22.604c.018-.012.034-.027.053-.039.05-.035.097-.072.145-.109.061-.049.121-.1.18-.152.044-.038.085-.081.127-.124.056-.055.108-.113.159-.172.037-.045.074-.09.109-.139.048-.062.092-.127.135-.193.03-.049.062-.098.091-.146.04-.07.075-.141.108-.213.024-.051.05-.102.071-.154.031-.078.057-.155.082-.233.017-.051.036-.102.05-.154.023-.088.04-.178.056-.268.008-.045.02-.092.026-.137.018-.139.028-.277.028-.418v-22.608c0-.14-.011-.279-.029-.416zm-33.883-16.233 24.982 16.653-11.158 7.465-13.823-9.247v-14.871zm-6.376 0v14.871l-13.822 9.247-11.159-7.465zm-27.534 22.617 7.977 5.335-7.977 5.335zm27.534 33.288-24.981-16.653 11.159-7.463 13.822 9.245zm3.188-20.41-11.277-7.543 11.277-7.542 11.276 7.542zm3.188 20.41v-14.871l13.823-9.245 11.159 7.463zm27.535-22.617-7.977-5.336 7.977-5.335z"/>
+                  </g>
+                </svg>
+                CodePen
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main id="mainContent" class="page__content">
+        {{ content | safe }}
+      </main>
+
+      <footer class="page__footer footer">
+        <small class="text-copy">&copy; 2024 Kasey Bonifacio</small>
+
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 140 160" xml:space="preserve" class="footer__cat" aria-hidden="true">
+          <defs>
+            <marker id="catX" viewBox="0 0 10 10" markerWidth="10" markerHeight="10" class="cat">
+              <line stroke-width="3" stroke-linecap="round" x1="2" y1="2" x2="8" y2="8" stroke="currentColor" />
+              <line stroke-width="3" stroke-linecap="round" x1="2" y1="8" x2="8" y2="2" stroke="currentColor" />
+            </marker>
+        
+            <marker id="faceX" viewBox="0 0 10 10" markerWidth="10" markerHeight="10" class="face">
+              <line stroke-width="3" stroke-linecap="round" x1="2" y1="2" x2="8" y2="8" stroke="currentColor" />
+              <line stroke-width="3" stroke-linecap="round" x1="2" y1="8" x2="8" y2="2" stroke="currentColor" />
+            </marker>
+          </defs>
+        
+          <!-- Cat Body -->
+          <path d="M10 0 70 0" marker-start="url(#catX)" marker-mid="url(#catX)" marker-end="url(#catX)" />
+          <path d="M10 10 20 10 60 10 70 10" marker-start="url(#catX)" marker-mid="url(#catX)" marker-end="url(#catX)" />
+          <path d="M10 20 20 20 30 20 40 20 50 20 60 20 70 20" marker-start="url(#catX)" marker-mid="url(#catX)" marker-end="url(#catX)" />
+          <path d="M10 30 20 30 30 30 40 30 50 30 60 30 70 30" marker-start="url(#catX)" marker-mid="url(#catX)" marker-end="url(#catX)" />
+          <path d="M10 40 20 40 40 40 60 40 70 40" marker-start="url(#catX)" marker-mid="url(#catX)" marker-end="url(#catX)" />
+          <path d="M10 50 20 50 30 50 50 50 60 50 70 50" marker-start="url(#catX)" marker-mid="url(#catX)" marker-end="url(#catX)" />
+          <path d="M10 60 20 60 30 60 40 60 50 60 60 60 70 60" marker-start="url(#catX)" marker-mid="url(#catX)" marker-end="url(#catX)" />
+          <path d="M10 70 20 70 30 70 40 70 50 70 60 70 70 70" marker-start="url(#catX)" marker-mid="url(#catX)" marker-end="url(#catX)" />
+          <path d="M20 80 30 80 40 80 50 80 60 80" marker-start="url(#catX)" marker-mid="url(#catX)" marker-end="url(#catX)" />
+          <path d="M10 90 20 90 30 90 40 90 50 90 60 90 70 90" marker-start="url(#catX)" marker-mid="url(#catX)" marker-end="url(#catX)" />
+          <path d="M0 100 10 100 20 100 30 100 40 100 50 100 60 100 70 100 80 100" marker-start="url(#catX)" marker-mid="url(#catX)" marker-end="url(#catX)" />
+          <path d="M0 110 10 110 20 110 30 110 40 110 50 110 60 110 70 110 80 110 120 110 130 110" marker-start="url(#catX)" marker-mid="url(#catX)" marker-end="url(#catX)" />
+          <path d="M0 120 10 120 20 120 30 120 40 120 50 120 60 120 70 120 80 120 110 120 120 120" marker-start="url(#catX)" marker-mid="url(#catX)" marker-end="url(#catX)" />
+          <path d="M0 130 10 130 20 130 30 130 40 130 50 130 60 130 70 130 80 130 100 130 110 130" marker-start="url(#catX)" marker-mid="url(#catX)" marker-end="url(#catX)" />
+          <path d="M0 140 10 140 20 140 30 140 40 140 50 140 60 140 70 140 80 140 100 140 110 140" marker-start="url(#catX)" marker-mid="url(#catX)" marker-end="url(#catX)" />
+          <path d="M0 150 10 150 20 150 30 150 40 150 50 150 60 150 70 150 80 150 90 150 100 150 110 150" marker-start="url(#catX)" marker-mid="url(#catX)" marker-end="url(#catX)" />
+        
+          <!-- Cat Face -->
+          <path d="M30 40 50 40" marker-start="url(#faceX)" marker-mid="url(#cafaceXtX)" marker-end="url(#faceX)" />
+          <path d="M40 50" marker-start="url(#faceX)" marker-mid="url(#cafaceXtX)" marker-end="url(#faceX)" />
+        </svg>
+      </footer>
+    </div>
+  </div>
+
+  <script src="/js/scripts.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-46795000-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>

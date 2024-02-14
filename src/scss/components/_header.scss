@@ -1,6 +1,7 @@
 @use "../settings/variables";
 
 .header {
+  position: relative;
   display: grid;
   grid-column-gap: var(--spacing);
   grid-template-columns: 155px 1fr;

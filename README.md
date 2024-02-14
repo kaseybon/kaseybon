@@ -28,12 +28,13 @@ Portfolio site for Kasey Bonifacio - [kaseybon.com](http://kaseybon.com)
 ## Tasks
 * **Clean** - Deletes an existing `dist/` directory
 * **Copy** - Copies any assets in `src/public/` to `dist/`
-* **Pages** - Copies any assets in `src/pages/` to `dist/`
+* **Pages** - Compiles pages in `src/pages/` to `dist/`
 * **Sass** - Compiles any assets in `src/scss` to `dist/css`
 * **Scripts** - Copies any assets in `src/js` to `dist/js`
 * **Server** - Spins up an [Express](https://expressjs.com/) server on [localhost://3000](http://localhost:3000/)
 * **Watch** - Watches for any changes in `src/` files and runs the corresponding task to update the local environment
 
 ### Notes
-* For now pages and scripts are simple enough that they do not need more complex compile tasks
+* Static pages are compiled with [11ty](https://www.11ty.dev/)
+* For now scripts are simple enough that they do not need more complex compile tasks
 * Watch task requires a manual browser refresh

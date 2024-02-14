@@ -1,0 +1,16 @@
+---
+layout: base.njk
+---
+
+<div class="readable-width">
+  <ul class="breadcrumbs">
+    <li class="breadcrumbs__item"><a href="/">Home</a></li>
+    <li class="breadcrumbs__item">Blog</li>
+  </ul>
+
+  <h1 class="text-section">{{ meta.title }}</h1>
+
+  <p class="text-highlight extra-spacing">{{ meta.date }}</p>
+
+  {{ content | safe}}
+</div>

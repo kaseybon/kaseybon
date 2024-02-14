@@ -5,11 +5,22 @@
   text-decoration: none;
   border: 2px solid var(--theme-primary);
   color: var(--color-primary);
+  background: var(--page-background);
   border-radius: 2rem;
   padding: 0.25rem 1rem;
   transition: transform variables.$transition-speed;
   
   &:hover {
     transform: translateY(-0.5rem);
+  }
+}
+
+.skip-to {
+  position: absolute;
+  top: -100px;
+  z-index: 999;
+  
+  &:focus {
+    top: 0;
   }
 }
