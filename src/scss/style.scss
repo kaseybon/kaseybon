@@ -57,6 +57,7 @@
 //    for example media object known from OOCSS.
 @use "objects/overflow";
 @use "objects/page";
+@use "objects/readable-width";
 
 // =====================================================================
 // 6. Components
@@ -68,7 +69,7 @@
 @use "components/section";
 @use "components/avatar";
 @use "components/icon-link";
-
+@use "components/breadcrumbs";
 
 // =====================================================================
 // 7. Utilities
