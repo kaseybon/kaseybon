@@ -16,7 +16,7 @@
   border: var(--border-thick) var(--theme-primary);
   border-radius: 50%;
   background-color: var(--theme-secondary);
-  margin: 0 auto calc(var(--spacing) / 2);
+  margin: auto;
   transition: transform variables.$transition-speed;
 }
 
