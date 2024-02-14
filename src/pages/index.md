@@ -269,9 +269,8 @@ meta:
         <a href="{{ post.url }}">{{ post.data.meta.title }}</a>
       </li>
     {%- endfor -%}
+    <li class="list-block">I also write on the <a href="https://sparkbox.com/foundry/author/kasey_bonifacio">Sparkbox Foundry</a></li>
   </ul>
-  
-  <p>I also write on the <a href="https://sparkbox.com/foundry/author/kasey_bonifacio">Sparkbox Foundry</a>.</p>
 </nav>
 
 <nav aria-labelledby="built" class="section">
