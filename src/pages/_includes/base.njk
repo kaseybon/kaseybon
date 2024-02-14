@@ -24,6 +24,7 @@
   <div class="overflow">
     <div class="page">
       <header class="page__header header">
+        <a href="#mainContent" class="link-pill skip-to">Skip to Content</a>
         <a href="/" class="avatar-link text-unlink">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 280 320" xml:space="preserve" class="header__avatar avatar">
           <symbol id="x" width="20" height="20" stroke="currentColor">
@@ -204,7 +205,7 @@
         </nav>
       </header>
 
-      <main class="page__content">
+      <main id="mainContent" class="page__content">
         {{ content | safe }}
       </main>
 
