@@ -262,16 +262,16 @@ meta:
 
 <nav aria-labelledby="writing" class="section">
   <h3 id="writting">Things I've written</h3>
+  
   <ul>
-    <li class="list-block">
-      <a href="https://sparkbox.com/foundry/wcag_2.1_checklist_web_accessibility_testing_a11y_success_criteria_list">Taking the Guesswork Out of Accessibility Testing</a>
-    </li>
-    <li class="list-block"><a href="https://sparkbox.com/foundry/understand_wcag_guidelines_for_accessibility">Understanding WCAG's 13 Guidelines</a></li>
-    <li class="list-block"><a href="https://sparkbox.com/foundry/manageable_utility_systems_with_css_variables">Manageable Utility Systems with CSS Variables</a></li>
-    <li class="list-block">
-      <a href="https://sparkbox.com/foundry/author/kasey_bonifacio">More on the Foundry</a>
-    </li>
+    {%- for post in collections.post -%}
+      <li class="list-block">
+        <a href="{{ post.url }}">{{ post.data.meta.title }}</a>
+      </li>
+    {%- endfor -%}
   </ul>
+  
+  <p>I also write on the <a href="https://sparkbox.com/foundry/author/kasey_bonifacio">Sparkbox Foundry</a>.</p>
 </nav>
 
 <nav aria-labelledby="built" class="section">
