@@ -1,25 +1,5 @@
-.list-block {
-  position: relative;
-  display: block;
-  padding-left: 1.25rem;
+@use "../tools/mixins";
 
-  &::before,
-  &::after {
-    content: '';
-    position: absolute;
-    left: 0.25rem;
-    top: 0.5rem;
-    display: block;
-    height: 0.75rem;
-    width: 3px;
-    border-radius: 3px;
-    background: var(--theme-primary);
-  }
-  
-  &::before {
-    transform: rotate(-45deg);
-  }
-  &::after {
-    transform: rotate(45deg);
-  }
+.list-block {
+  @include mixins.cross-stitch-list;
 }

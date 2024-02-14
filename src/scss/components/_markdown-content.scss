@@ -1,0 +1,7 @@
+@use "../tools/mixins";
+
+.markdown-content {
+  li {
+    @include mixins.cross-stitch-list;
+  }
+}
