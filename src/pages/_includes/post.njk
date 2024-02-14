@@ -12,5 +12,7 @@ layout: base.njk
 
   <p class="text-highlight extra-spacing">{{ meta.date }}</p>
 
-  {{ content | safe}}
+  <div class="markdown-content">
+    {{ content | safe}}
+  </div>
 </div>

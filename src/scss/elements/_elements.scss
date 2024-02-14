@@ -33,11 +33,17 @@ a:not([class]) {
 
 ul {
   list-style-type: none;
-  margin: 0 -0.25rem;
+  margin: 0 0 var(--spacing);
   padding: 0;
 }
 
 li {
   display: inline-block;
   margin: 0.25rem;
+}
+
+blockquote {
+  border-left: 3px solid var(--theme-primary);
+  margin: 0;
+  padding-left: var(--spacing);
 }
