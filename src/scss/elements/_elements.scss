@@ -6,17 +6,6 @@ body {
   line-height: 1.6;
   padding-top: var(--spacing);
   margin: 0;
-  
-  &::after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: var(--spacing);
-    background-color: var(--theme-primary)
-  }
 }
 
 p {

@@ -4,21 +4,20 @@
   text-align: left;
 
   @media (min-width: variables.$breakpoint--2-columns) {
-    max-width: 50%;
-    margin: auto;
+    display: inline-block;
   }
 
   &__item {
     display: inline-block;
     transition: transform variables.$transition-speed;
-    
+
     &:hover {
       transform: translateY(-0.5rem);
     }
-    
+
     @media (min-width: variables.$breakpoint--2-columns) {
       display: block;
-      
+
       &:hover {
         transform: translateX(0.5rem);
       }
