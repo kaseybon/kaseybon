@@ -3,21 +3,27 @@
 .avatar-link:focus,
 .avatar-link:hover {
   outline: none;
-  
+
   .avatar {
     transform: scale(1.1);
   }
 }
 
 .avatar {
+  --avatar-size: 100px;
+
   width: 100%;
-  max-width: 150px;
-  max-height: 150px;
+  max-width: var(--avatar-size);
+  max-height: var(--avatar-size);
   border: var(--border-thick) var(--theme-primary);
   border-radius: 50%;
   background-color: var(--theme-secondary);
   margin: auto;
-  transition: transform variables.$transition-speed;
+  transition: all variables.$transition-speed;
+
+  @media (min-width: 900px) {
+    --avatar-size: 150px;
+  }
 }
 
 .sweater {
