@@ -1,35 +1,42 @@
 @use "../settings/variables";
 
 .page {
-  display: grid;
-  gap: var(--spacing);
-  box-sizing: border-box;
-  padding: var(--spacing);
-  max-width: 1200px;
-  min-height: calc(100vh - var(--spacing)); // adjusting for the decorative border on the body element
-  grid-template-columns: 1fr;
-  grid-template-areas: 
-    "header"
-    "content"
-    "footer"; 
+  max-width: 1400px;
+  min-height: calc(100vh - 15px);
+  margin: auto;
+  position: relative;
   
-  @media (min-width: variables.$breakpoint--2-columns) {
-    grid-template-columns: 250px 1fr;
-    grid-template-areas: 
-      "header content"
-      ". content"
-      ". footer";
+  @media (min-width: 900px) {
+    display: grid;
+    grid-template-columns: 20% 1fr 15%;
+    grid-template-rows: 1fr auto;
+    grid-template-areas: 'header content .'
+                         'header footer footer';
+  }
+  
+  &::after {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--spacing);
+    background-color: var(--theme-primary)
   }
 
   &__header {
     grid-area: header;
+    padding: var(--spacing);
   }
 
   &__content {
     grid-area: content;
+    padding: var(--spacing);
   }
 
   &__footer {
     grid-area: footer;
+    padding: var(--spacing);
   }
 }
