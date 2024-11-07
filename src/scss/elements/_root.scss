@@ -1,19 +1,15 @@
 :root {
+  color-scheme: light dark;
+
   --spacing: 1rem;
 
   --border-thick: 2px solid;
-  --page-background: white;
+  --page-background: light-dark(white, #001B44);
 
-  --color-primary: #001B44;
-  --color-secondary: #137752;
+  --color-primary: light-dark(#001B44, white);
+  --color-secondary: light-dark(#137752, #1AAD77);
   
   // no-js falls back to the pumpkin theme
   --theme-primary: #FFB700;
   --theme-secondary: #FFFCEB;
-  
-  @media (prefers-color-scheme: dark) {
-    --page-background: #001B44;
-    --color-primary: white;
-    --color-secondary: #1AAD77;
-  }
 }
