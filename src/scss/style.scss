@@ -45,9 +45,8 @@
 // patterns, primarily for page layouts and grid systems. This section
 // focuses on organizing content and creating consistent, flexible
 // layouts without adding visual styling or decoration.
-@forward "layouts/overflow";
-@forward "layouts/page";
-@forward "layouts/readable-width";
+@forward "layouts/max-width";
+@forward "layouts/to-edges";
 
 // =====================================================================
 // 5. Components
@@ -71,3 +70,4 @@
 @forward "utilities/lists";
 @forward "utilities/links";
 @forward "utilities/spacing";
+@forward "utilities/themes";

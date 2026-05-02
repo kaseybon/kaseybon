@@ -1,6 +1,5 @@
 .footer {
-  grid-area: footer;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  background: var(--theme-background);
+  color: var(--theme-text);
+  padding-block: calc(var(--spacing) * 2);
 }

@@ -10,7 +10,7 @@
   <link href="/css/style.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -21,39 +21,58 @@
 </head>
 
 <body>
-  <div class="overflow">
-    <div class="page">
-      <header class="page__header header">
-        <a href="#mainContent" class="link-pill skip-to">Skip to Content</a>
+  <header class="header theme-prune">
+    <div class="max-width">
+      <a href="#mainContent" class="link-pill skip-to">Skip to Content</a>
 
-        <span class="header__name text-large">Kasey Bonifacio</span>
+      <span class="text-name">Kasey Bonifacio</span>
+    </div>
+  </header>
 
+  <main id="mainContent" class="page__content">
+    <div class="max-width">
+      {{ content | safe }}
+    </div>
+  </main>
+
+  <footer class="footer theme-prune">
+    <div class="max-width layout-to-edges">
+      <p><small class="text-copy">&copy; {% year %} Kasey Bonifacio</small></p>
+
+      <div>
         <nav aria-labelledby="connect">
           <h2 id="connect" class="text-visually-hidden">Connect with me</h2>
 
           <ul class="icon-links">
             <li class="icon-links__item">
-              <a href="https://www.linkedin.com/in/kaseybon/" class="icon-links__link">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/kaseybon/" class="icon-links__link text-unlink">
+                <svg height="24" width="24" role="presentational" class="text-highlight">
+                  <use href="/images/social.svg#linkedIn" x="0" y="0" />
+                </svg>
+                LinkedIn
+              </a>
             </li>
             <li class="icon-links__item">
-              <a href="https://github.com/kaseybon" class="icon-links__link">GitHub</a>
+              <a href="https://github.com/kaseybon" class="icon-links__link text-unlink">
+                <svg height="24" width="24" role="presentational" class="text-highlight">
+                  <use href="/images/social.svg#gitHub" x="0" y="0" />
+                </svg>
+                GitHub
+              </a>
             </li>
             <li class="icon-links__item">
-              <a href="https://codepen.io/kaseybon/" class="icon-links__link">CodePen</a>
+              <a href="https://codepen.io/kaseybon/" class="icon-links__link text-unlink">
+                <svg height="24" width="24" role="presentational" class="text-highlight">
+                  <use href="/images/social.svg#codePen" x="0" y="0" />
+                </svg>
+                CodePen
+              </a>
             </li>
           </ul>
         </nav>
-      </header>
-
-      <main id="mainContent" class="page__content">
-        {{ content | safe }}
-      </main>
-
-      <footer class="page__footer footer">
-        <small class="text-copy">&copy; 2026 Kasey Bonifacio</small>
-      </footer>
+      </div>
     </div>
-  </div>
+  </footer>
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

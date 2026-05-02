@@ -4,7 +4,7 @@ body {
   color: var(--theme-text);
   font-size: 1rem;
   line-height: 1.6;
-  padding-top: var(--spacing);
+  padding: 0;
   margin: 0;
 }
 
@@ -13,7 +13,7 @@ p {
 }
 
 a:not([class]) {
-  color: var(--theme-text);
+  color: currentColor;
 
   &:hover {
     text-decoration-style: wavy;

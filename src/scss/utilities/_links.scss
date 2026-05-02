@@ -3,7 +3,7 @@
   text-decoration: none;
   border: 2px solid var(--theme-accent);
   color: var(--theme-text);
-  background: var(-theme-background);
+  background: var(--theme-background);
   border-radius: 2rem;
   padding: 0.25rem 1rem;
   transition: transform var(--animate-speed);
@@ -19,6 +19,6 @@
   z-index: 999;
 
   &:focus {
-    top: 0;
+    top: var(--spacing);
   }
 }

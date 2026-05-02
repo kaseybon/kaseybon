@@ -1,9 +1,9 @@
 :root {
   color-scheme: light dark;
 
-  --theme-background: light-dark(var(--color-primitive-prune-juice), var(--color-primitive-prune));
-  --theme-text: light-dark(var(--color-primitive-prune), var(--color-primitive-prune-juice));
-  --theme-accent: light-dark(var(--color-primitive-kale), var(--color-primitive-berry));
+  --theme-background: var(--color-primitive-prune-juice);
+  --theme-text: var(--color-primitive-prune);
+  --theme-accent: var(--color-primitive-kale);
 
   --spacing: 1rem;
   --border: 2px solid var(--theme-accent);
