@@ -21,58 +21,60 @@
 </head>
 
 <body>
-  <header class="header theme-prune">
-    <div class="max-width">
-      <a href="#mainContent" class="link-pill skip-to">Skip to Content</a>
+  <div class="layout-page">
+    <header class="header theme-prune">
+      <div class="max-width">
+        <a href="#mainContent" class="link-pill skip-to">Skip to Content</a>
 
-      <span class="text-name">Kasey Bonifacio</span>
-    </div>
-  </header>
-
-  <main id="mainContent" class="page__content">
-    <div class="max-width">
-      {{ content | safe }}
-    </div>
-  </main>
-
-  <footer class="footer theme-prune">
-    <div class="max-width layout-to-edges">
-      <p><small class="text-copy">&copy; {% year %} Kasey Bonifacio</small></p>
-
-      <div>
-        <nav aria-labelledby="connect">
-          <h2 id="connect" class="text-visually-hidden">Connect with me</h2>
-
-          <ul class="icon-links">
-            <li class="icon-links__item">
-              <a href="https://www.linkedin.com/in/kaseybon/" class="icon-links__link text-unlink">
-                <svg height="24" width="24" role="presentational" class="text-highlight">
-                  <use href="/images/social.svg#linkedIn" x="0" y="0" />
-                </svg>
-                LinkedIn
-              </a>
-            </li>
-            <li class="icon-links__item">
-              <a href="https://github.com/kaseybon" class="icon-links__link text-unlink">
-                <svg height="24" width="24" role="presentational" class="text-highlight">
-                  <use href="/images/social.svg#gitHub" x="0" y="0" />
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li class="icon-links__item">
-              <a href="https://codepen.io/kaseybon/" class="icon-links__link text-unlink">
-                <svg height="24" width="24" role="presentational" class="text-highlight">
-                  <use href="/images/social.svg#codePen" x="0" y="0" />
-                </svg>
-                CodePen
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <span class="text-name">Kasey Bonifacio</span>
       </div>
-    </div>
-  </footer>
+    </header>
+
+    <main id="mainContent" class="page__content">
+      <div class="max-width">
+        {{ content | safe }}
+      </div>
+    </main>
+
+    <footer class="footer theme-prune">
+      <div class="max-width layout-to-edges">
+        <p><small class="text-copy">&copy; {% year %} Kasey Bonifacio</small></p>
+
+        <div>
+          <nav aria-labelledby="connect">
+            <h2 id="connect" class="text-visually-hidden">Connect with me</h2>
+
+            <ul class="icon-links">
+              <li class="icon-links__item">
+                <a href="https://www.linkedin.com/in/kaseybon/" class="icon-links__link text-unlink">
+                  <svg height="24" width="24" role="presentational" class="text-highlight">
+                    <use href="/images/social.svg#linkedIn" x="0" y="0" />
+                  </svg>
+                  LinkedIn
+                </a>
+              </li>
+              <li class="icon-links__item">
+                <a href="https://github.com/kaseybon" class="icon-links__link text-unlink">
+                  <svg height="24" width="24" role="presentational" class="text-highlight">
+                    <use href="/images/social.svg#gitHub" x="0" y="0" />
+                  </svg>
+                  GitHub
+                </a>
+              </li>
+              <li class="icon-links__item">
+                <a href="https://codepen.io/kaseybon/" class="icon-links__link text-unlink">
+                  <svg height="24" width="24" role="presentational" class="text-highlight">
+                    <use href="/images/social.svg#codePen" x="0" y="0" />
+                  </svg>
+                  CodePen
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </div>
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

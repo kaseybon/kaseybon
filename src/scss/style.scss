@@ -45,6 +45,7 @@
 // patterns, primarily for page layouts and grid systems. This section
 // focuses on organizing content and creating consistent, flexible
 // layouts without adding visual styling or decoration.
+@forward "layouts/page";
 @forward "layouts/max-width";
 @forward "layouts/to-edges";
 
