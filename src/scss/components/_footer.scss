@@ -3,16 +3,4 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-
-  &__cat {
-    max-width: 120px;
-    margin-bottom: calc(var(--spacing) * -1);
-  }
-}
-
-.face {
-  color: var(color-primary);
-}
-.cat {
-  color: var(--theme-primary);
 }

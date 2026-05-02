@@ -1,22 +1,22 @@
-@use "../settings/variables";
+@use "../tokens/breakpoints";
 
 .icon-links {
   text-align: left;
 
-  @media (min-width: variables.$breakpoint--2-columns) {
+  @media (min-width: breakpoints.$breakpoint--2-columns) {
     max-width: 50%;
     margin: auto;
   }
 
   &__item {
     display: inline-block;
-    transition: transform variables.$transition-speed;
+    transition: transform var(--animate-speed);
 
     &:hover {
       transform: translateY(-0.5rem);
     }
 
-    @media (min-width: variables.$breakpoint--2-columns) {
+    @media (min-width: breakpoints.$breakpoint--2-columns) {
       display: block;
 
       &:hover {
@@ -28,6 +28,6 @@
   &__link {
     display: block;
     text-decoration: none;
-    color: var(--color-primary);
+    color: var(--theme-text);
   }
 }

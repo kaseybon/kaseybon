@@ -1,4 +1,4 @@
-@use "../settings/variables";
+@use "../tokens/breakpoints";
 
 .text-featured {
   font-family: "DM Serif Display";
@@ -16,29 +16,29 @@
   padding-top: var(--spacing);
   font-size: 2.25rem;
   line-height: 1.2;
-  border-top: 2px solid var(--theme-primary);
+  border-top: 2px solid var(--theme-accent);
 }
 
 .text-highlight {
-  color: var(--color-secondary);
+  color: var(--theme-accent);
 }
 
 .text-large {
   font-size: 1.75rem;
   font-weight: 400;
-  
-  @media (min-width: variables.$breakpoint--2-columns) {
+
+  @media (min-width: breakpoints.$breakpoint--2-columns) {
     font-size: 1.25rem;
   }
 }
 
 .text-visually-hidden {
-  clip: rect(0 0 0 0); 
+  clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
-  white-space: nowrap; 
+  white-space: nowrap;
   width: 1px;
 }
 

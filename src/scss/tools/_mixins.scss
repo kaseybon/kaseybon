@@ -2,7 +2,7 @@
   position: relative;
   display: block;
   padding-left: 1.25rem;
-  
+
   &::before,
   &::after {
     content: '';
@@ -13,9 +13,9 @@
     height: 0.75rem;
     width: 3px;
     border-radius: 3px;
-    background: var(--theme-primary);
+    background: var(--theme-accent);
   }
-  
+
   &::before {
     transform: rotate(-45deg);
   }

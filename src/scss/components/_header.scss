@@ -1,4 +1,4 @@
-@use "../settings/variables";
+@use "../tokens/breakpoints";
 
 .header {
   position: relative;
@@ -8,7 +8,7 @@
   grid-template-rows: auto auto;
   margin-bottom: calc(var(--spacing) * 2);
 
-  @media (min-width: variables.$breakpoint--2-columns) {
+  @media (min-width: breakpoints.$breakpoint--2-columns) {
     display: flex;
     gap: var(--spacing);
     flex-direction: column;
@@ -21,8 +21,8 @@
 
   &__name {
     align-self: end;
-    
-    @media (min-width: variables.$breakpoint--2-columns) {
+
+    @media (min-width: breakpoints.$breakpoint--2-columns) {
       align-self: unset;
     }
   }

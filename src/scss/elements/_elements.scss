@@ -1,22 +1,11 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: var(--page-background);
-  color: var(--color-primary);
+  background-color: var(--theme-background);
+  color: var(--theme-text);
   font-size: 1rem;
   line-height: 1.6;
   padding-top: var(--spacing);
   margin: 0;
-  
-  &::after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: var(--spacing);
-    background-color: var(--theme-primary)
-  }
 }
 
 p {
@@ -24,7 +13,7 @@ p {
 }
 
 a:not([class]) {
-  color: var(--color-secondary);
+  color: var(--theme-text);
 
   &:hover {
     text-decoration-style: wavy;
@@ -40,10 +29,4 @@ ul {
 li {
   display: inline-block;
   margin: 0.25rem;
-}
-
-blockquote {
-  border-left: 3px solid var(--theme-primary);
-  margin: 0;
-  padding-left: var(--spacing);
 }

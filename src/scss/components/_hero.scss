@@ -1,48 +1,4 @@
-@use "../settings/variables";
-
 .hero {
   position: relative;
-  transition: padding-top variables.$transition-speed;
-
-  @media (min-width: variables.$breakpoint--hero) {
-    padding-top: 17rem;
-  }
-
-  &__keyboard {
-    position: absolute;
-    top: -1rem;
-    right: -300%;
-    max-width: 600px;
-    transform: rotate(35deg);
-    transition: all variables.$transition-speed;
-    display: none;
-
-    @media (min-width: (variables.$breakpoint--hero - 1)) {
-      display: block;
-    }
-
-    @media (min-width: variables.$breakpoint--hero) {
-      right: -25%;
-    }
-
-    @media (min-width: variables.$breakpoint--hero-rotate) {
-      transform: rotate(25deg);
-    }
-  }
-}
-
-.board {
-  color: var(--color-primary);
-
-  @media (prefers-color-scheme: dark) {
-    color: var(--color-secondary);
-  }
-}
-
-.key {
-  color: #E8FDF5;
-}
-
-.featured {
-  color: var(--theme-primary);
+  transition: padding-top var(--animate-speed);
 }
