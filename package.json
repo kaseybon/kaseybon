@@ -16,14 +16,10 @@
   },
   "homepage": "https://github.com/kaseybon/kaseybon",
   "scripts": {
-    "start": "npm run clean && node tasks/start.js",
+    "start": "npm run clean && npm run pages & npm run sass",
     "clean": "rimraf dist/",
-    "copy": "node tasks/copy.js",
-    "pages": "npx @11ty/eleventy",
-    "sass": "sass src/scss/:dist/css/ --style=compressed",
-    "scripts": "node tasks/scripts.js",
-    "server": "node tasks/server.js",
-    "watch": "node tasks/watch.js"
+    "pages": "npx @11ty/eleventy --serve",
+    "sass": "sass src/scss/:dist/css/ --style=compressed --watch"
   },
   "dependencies": {
     "chokidar": "^3.5.3",
