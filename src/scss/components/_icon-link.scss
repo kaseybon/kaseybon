@@ -11,14 +11,14 @@
   &__item {
     display: inline-block;
     transition: transform variables.$transition-speed;
-    
+
     &:hover {
       transform: translateY(-0.5rem);
     }
-    
+
     @media (min-width: variables.$breakpoint--2-columns) {
       display: block;
-      
+
       &:hover {
         transform: translateX(0.5rem);
       }
@@ -29,12 +29,5 @@
     display: block;
     text-decoration: none;
     color: var(--color-primary);
-  }
-
-  &__icon {
-    height: 1.5rem;
-    width: 1.5rem;
-    margin: 0 0.5rem -0.25rem 0;
-    fill: var(--theme-primary);
   }
 }

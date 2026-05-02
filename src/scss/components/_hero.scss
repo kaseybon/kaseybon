@@ -3,7 +3,7 @@
 .hero {
   position: relative;
   transition: padding-top variables.$transition-speed;
-  
+
   @media (min-width: variables.$breakpoint--hero) {
     padding-top: 17rem;
   }
@@ -16,7 +16,7 @@
     transform: rotate(35deg);
     transition: all variables.$transition-speed;
     display: none;
-    
+
     @media (min-width: (variables.$breakpoint--hero - 1)) {
       display: block;
     }
