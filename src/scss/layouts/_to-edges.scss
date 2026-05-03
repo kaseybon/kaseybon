@@ -10,4 +10,12 @@
     align-items: center;
     gap: var(--spacing);
   }
+
+  &__first {
+    order: 1;
+
+    @media (min-width: breakpoints.$breakpoint--2-columns) {
+      order: unset;
+    }
+  }
 }
