@@ -70,7 +70,7 @@ meta:
   </div>
 </div>
 
-<div class="section theme-kale-smoothie">
+<div class="section">
   <div class="max-width">
     <div class="decor-stitches">
       <h2 class="text-section">I Work With Amazing People</h2>
