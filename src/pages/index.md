@@ -27,7 +27,7 @@ meta:
 
 <div class="section theme-prune">
   <div class="max-width">
-    <div class="section">
+    <div class="section bio">
       <h2 class="text-section">A little about me</h2>
       <p>I'm Kasey Bonifacio and I have been building things on the Internet since 2011. I have a diverse background in design, frontend development, and backend development—but the frontend is where my heart is. In 2015 I joined the folks at <a href="https://sparkbox.com">Sparkbox</a> and have focused my career on building accessible websites and usable design systems.</p>
       <nav aria-labelledby="certifications">
