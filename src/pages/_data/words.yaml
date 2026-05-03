@@ -1,0 +1,61 @@
+articles:
+  - title: Headings for Designers
+    url: https://sparkbox.com/foundry/accessible_headings_for_designers
+    source: Sparkbox
+    date: November 10, 2025
+    description: Designers can help developers build more accessible websites by separating visual heading styles from content hierarchy with a naming convention that communicates intent.
+  - title: Headings for Developers
+    url: https://sparkbox.com/foundry/accessible_headings_for_developers
+    source: Sparkbox
+    date: November 10, 2025
+    description: Developers can create accessible and maintainable websites by separating style from structure when implementing heading systems.
+  - title: The Accidental Design System
+    url: https://sparkbox.com/foundry/the_accidental_design_System
+    source: Sparkbox
+    date: April 30, 2025
+    description: We never set out to build a design system for NCSBN. It started as a simple pattern library for a single website, nothing more. But over time, it took on a life of its own, growing and evolving until, before we knew it, we had something that resembled the beginnings of a design system.
+  - title: Iterating on Atomic Design
+    url: https://sparkbox.com/foundry/iterating_on_atomic_design
+    source: Sparkbox
+    date: November 01, 2024
+    description: Atomic design is widely referenced when discussing design system organization, but is it the ideal solution for every modern system?
+  - title: What Do You Do When Burnout Doesn't End?
+    url: https://sparkbox.com/foundry/managing_burnout_with_rest
+    source: Sparkbox
+    date: February 28, 2024
+    description: Sparkbox Technical Director Kasey Bonifacio recounts her discovery of the seven types of rest as she learns to manage burnout in an ever stressful world.
+  - title: Performing a Web Accessibility Audit
+    url: https://sparkbox.com/foundry/performing_web_accessibility_audits
+    source: Sparkbox
+    date: November 15, 2023
+    description: We all know accessibility is critical, but where to start? An audit will point you in the right direction.
+  - title: Building an Accessibility Testing Checklist
+    url: https://sparkbox.com/foundry/wcag_2.1_checklist_web_accessibility_testing_a11y_success_criteria_list
+    source: Sparkbox
+    date: August 17, 2022
+    description: When it comes to web accessibility, testing your work is just as important as the build itself. Learn how to efficiently test for web accessibility using a checklist based on WCAG success criteria and how to effectively deploy your team to tackle the testing.
+  - title: 'Understanding Accessibility: WCAG’s 13 Guidelines'
+    url: https://sparkbox.com/foundry/understand_wcag_guidelines_for_accessibility
+    source: Sparkbox
+    date: December 04, 2020
+    description: '<strong>Video:</strong> Improve accessibility in your projects through understanding WCAG’s 13 accessibility guidelines.'
+  - title: Writing Better Release Notes
+    url: https://sparkbox.com/foundry/writing_better_release_notes
+    source: Sparkbox
+    date: March 26, 2018
+    description: Release notes are a valuable way to communicate the work that has been done but writing them feels arduous. Kasey shares a simple tweak to stop dreading the task of writing release notes—and make them better at the same time.
+  - title: Manageable Utility Systems with CSS Variables
+    url: https://sparkbox.com/foundry/manageable_utility_systems_with_css_variables
+    source: Sparkbox
+    date: December 04, 2017
+    description: Kasey shows the difference between Sass variables and new CSS variables. Now we have more options to simplify our code and condense classes.
+  - title: Design Systems Are Great But…
+    url: https://sparkbox.com/foundry/design_systems_are_great_but
+    source: Sparkbox
+    date: May 08, 2017
+    description: The case for using design systems is strong. However, it comes with real challenges. Kasey shares how to navigate them and responsibly adopt a design system.
+  - title: Refactoring Legacy CSS
+    url: https://sparkbox.com/foundry/refactoring_legacy_css
+    source: Sparkbox
+    date: April 28, 2016
+    description: As projects grow, they can become unruly. Kasey shares when it’s a good time to reign in the chaos and start refactoring.

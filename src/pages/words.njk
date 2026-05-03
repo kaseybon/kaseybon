@@ -1,0 +1,33 @@
+---
+layout: base.njk
+meta:
+  title: Words & Other Ramblings
+  description: I've been writing about the web for years, mostly over on the <a href="https://sparkbox.com/foundry">Sparkbox Foundry</a>. You'll find articles on accessibility, design systems, CSS, and the occasional deep dive into something I couldn't stop thinking about.
+---
+
+<div class="section theme-prune">
+  <div class="max-width max-width--narrow decor-stitches">
+    <h1 class="text-section">Words <span class="text-highlight">& Other Ramblings</span></h1>
+
+    <p>{{ meta.description | safe }}</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="max-width max-width--narrow">
+    <ul>
+      {% for article in words.articles %}
+      <li class="extra-spacing decor-divider block">
+       <h2>
+         <span class="text-eyebrow">{{ article.source }}</span>
+         <a href="{{ article.url }}" class="text-unlink block">
+           {{ article.title }}
+         </a>
+       </h2>
+       <span class="text-date">{{ article.date }}</span>
+       <p>{{ article.description | safe }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
