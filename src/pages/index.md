@@ -13,7 +13,7 @@ meta:
     <h1 class="text-featured decor-stitches">Stitching together<br> <span class="text-highlight">handcrafted</span><br> websites</h1>
   </div>
 
-  <div class="hero__list theme-kale">
+  <div class="hero__list theme-kale decor-bubble-border">
     <div class="max-width">
       <ul class="hero__list-list">
         <li>Web Developer</li>
