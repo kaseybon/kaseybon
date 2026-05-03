@@ -1,0 +1,40 @@
+.decor-stitches {
+  position: relative;
+  padding-top: 5rem;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc(var(--spacing) * 1.5);
+    right: 0;
+    height: 2rem;
+    width: round(down, 60%, 36px);
+    background-image: var(--theme-stitch);
+  }
+
+  &.hero::after {
+    width: round(down, 40%, 36px);
+  }
+}
+
+.decor-divider {
+  margin-block-start: 2.5rem;
+  padding-block-start: 2.5rem;
+  border-top: 1px solid var(--theme-accent);
+}
+
+.decor-bubble-border {
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -24px;
+    width: 100%;
+    height: 50px;
+    background: radial-gradient(circle, var(--theme-background) 24px, transparent 25px);
+    background-size: 50px 50px;
+  }
+}

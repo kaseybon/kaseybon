@@ -1,0 +1,6 @@
+.max-width {
+  position: relative;
+  margin: auto;
+  max-width: 100rem;
+  padding: calc(var(--spacing) * 2) var(--spacing);
+}

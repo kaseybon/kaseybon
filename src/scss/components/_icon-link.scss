@@ -1,40 +1,34 @@
-@use "../settings/variables";
+@use "../tokens/breakpoints";
 
 .icon-links {
   text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: calc(var(--spacing) / 2);
+  margin-block-end: calc(var(--spacing) / 2);
 
-  @media (min-width: variables.$breakpoint--2-columns) {
-    max-width: 50%;
-    margin: auto;
+  @media (min-width: breakpoints.$breakpoint--2-columns) {
+    gap: var(--spacing);
   }
 
   &__item {
-    display: inline-block;
-    transition: transform variables.$transition-speed;
-    
+    transition: transform var(--animate-speed);
+
     &:hover {
       transform: translateY(-0.5rem);
-    }
-    
-    @media (min-width: variables.$breakpoint--2-columns) {
-      display: block;
-      
-      &:hover {
-        transform: translateX(0.5rem);
-      }
     }
   }
 
   &__link {
-    display: block;
-    text-decoration: none;
-    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    gap: calc(var(--spacing) / 4);
   }
 
   &__icon {
     height: 1.5rem;
     width: 1.5rem;
     margin: 0 0.5rem -0.25rem 0;
-    fill: var(--theme-primary);
   }
 }

@@ -1,0 +1,33 @@
+@use "../tokens/breakpoints";
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (min-width: breakpoints.$breakpoint--2-columns) {
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+}
+
+.columns-four {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: var(--spacing);
+
+  @media (min-width: breakpoints.$breakpoint--2-columns--text) {
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__item {
+      width: 40%;
+    }
+  }
+
+  @media (min-width: breakpoints.$breakpoint--4-columns) {
+    &__item {
+      width: 20%;
+    }
+  }
+}

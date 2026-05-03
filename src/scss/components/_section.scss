@@ -1,3 +1,9 @@
 .section {
-  margin: 0 0 calc(var(--spacing) * 3);
+  background-color: var(--theme-background);
+  color: var(--theme-text);
+  padding-block: 2.5rem;
+
+  .section {
+    padding-block-end: 0;
+  }
 }

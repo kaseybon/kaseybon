@@ -1,5 +1,22 @@
 @use "../tools/mixins";
+@use "../tokens/breakpoints";
 
 .list-block {
   @include mixins.cross-stitch-list;
+  display: block;
+}
+
+.list-inline {
+  @include mixins.cross-stitch-list;
+  display: block;
+  text-align: left;
+
+  @media (min-width: breakpoints.$breakpoint--2-columns) {
+    display: inline-block;
+
+    &:first-child::before,
+    &:first-child::after {
+      display: none;
+    }
+  }
 }

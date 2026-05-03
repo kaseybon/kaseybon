@@ -1,48 +1,35 @@
-@use "../settings/variables";
+@use "../tokens/breakpoints";
 
 .hero {
   position: relative;
-  transition: padding-top variables.$transition-speed;
-  
-  @media (min-width: variables.$breakpoint--hero) {
-    padding-top: 17rem;
+  color: var(--theme-text);
+  background-color: var(--theme-background);
+  background-image:
+    repeating-linear-gradient( 0deg, var(--theme-background-accent) 0px 1px,	transparent 1px 50px),
+    repeating-linear-gradient( 90deg, var(--theme-background-accent) 0px 1px,	transparent 1px 50px);
+
+  @media (min-width: breakpoints.$breakpoint--2-columns) {
+    text-align: right;
   }
 
-  &__keyboard {
-    position: absolute;
-    top: -1rem;
-    right: -300%;
-    max-width: 600px;
-    transform: rotate(35deg);
-    transition: all variables.$transition-speed;
+  &__avatar {
     display: none;
-    
-    @media (min-width: (variables.$breakpoint--hero - 1)) {
+
+    @media (min-width: breakpoints.$breakpoint--2-columns) {
       display: block;
-    }
-
-    @media (min-width: variables.$breakpoint--hero) {
-      right: -25%;
-    }
-
-    @media (min-width: variables.$breakpoint--hero-rotate) {
-      transform: rotate(25deg);
+      width: 45%;
+      max-width: 35rem;
     }
   }
-}
 
-.board {
-  color: var(--color-primary);
+  &__list {
+    background-color: var(--theme-background);
+    color: var(--theme-text);
+    text-align: center;
+    font-size: 1.25rem;
 
-  @media (prefers-color-scheme: dark) {
-    color: var(--color-secondary);
+    &-list {
+      margin: 0;
+    }
   }
-}
-
-.key {
-  color: #E8FDF5;
-}
-
-.featured {
-  color: var(--theme-primary);
 }

@@ -1,0 +1,13 @@
+:root {
+  color-scheme: light dark;
+
+  --theme-background: var(--color-primitive-prune-juice);
+  --theme-background-accent: var(--color-primitive-prune);
+  --theme-text: var(--color-primitive-prune);
+  --theme-accent: var(--color-primitive-kale);
+  --theme-stitch: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='32' viewBox='0 0 32 36'><line stroke-width='10' stroke-linecap='round' x1='5' y1='5' x2='27' y2='27' stroke='%23D5008F'/><line stroke-width='10' stroke-linecap='round' x1='5' y1='27' x2='27' y2='5' stroke='%23D5008F'/></svg>");
+
+  --spacing: 1rem;
+  --border: 2px solid var(--theme-accent);
+  --animate-speed: 0.5s;
+}

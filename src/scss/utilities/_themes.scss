@@ -1,28 +1,47 @@
-.t-pumpkin {
-  --theme-primary: #FFB700;
-  --theme-secondary: #FFFCEB;
+.theme-prune-juice {
+  --theme-background: var(--color-primitive-prune-juice);
+  --theme-background-accent: var(--color-primitive-prune);
+  --theme-text: var(--color-primitive-prune);
+  --theme-accent: var(--color-primitive-kale);
+  --theme-stitch: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='32' viewBox='0 0 32 36'><line stroke-width='10' stroke-linecap='round' x1='5' y1='5' x2='27' y2='27' stroke='%23D5008F'/><line stroke-width='10' stroke-linecap='round' x1='5' y1='27' x2='27' y2='5' stroke='%23D5008F'/></svg>");
 }
 
-.t-tomato {
-  --theme-primary: #FF4136;
-  --theme-secondary: #FFF6F6;
+.theme-prune {
+  --theme-background: var(--color-primitive-prune);
+  --theme-background-accent: var(--color-primitive-kale);
+  --theme-text: var(--color-primitive-prune-juice);
+  --theme-accent: var(--color-primitive-berry);
+  --theme-stitch: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='32' viewBox='0 0 32 36'><line stroke-width='10' stroke-linecap='round' x1='5' y1='5' x2='27' y2='27' stroke='%23D5008F'/><line stroke-width='10' stroke-linecap='round' x1='5' y1='27' x2='27' y2='5' stroke='%23D5008F'/></svg>");
 }
 
-.t-berry {
-  --theme-primary: #D5008F;
-  --theme-secondary: #FFF8F8;
+.theme-pumpkin {
+  --theme-background: var(--color-primitive-pumpkin-puree);
+  --theme-background-accent: var(--color-primitive-pumpkin);
+  --theme-text: var(--color-primitive-prune);
+  --theme-accent: var(--color-primitive-kale);
+  --theme-stitch: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='32' viewBox='0 0 32 36'><line stroke-width='10' stroke-linecap='round' x1='5' y1='5' x2='27' y2='27' stroke='%23137752'/><line stroke-width='10' stroke-linecap='round' x1='5' y1='27' x2='27' y2='5' stroke='%23137752'/></svg>");
 }
 
-.t-kale {
-  --theme-primary: #1AAD77;
-  --theme-secondary: #F1FEF9;
-  
-  @media (prefers-color-scheme: dark) {
-    --theme-primary: #137752;
-  }
+.theme-kale {
+  --theme-background: var(--color-primitive-kale);
+  --theme-background-accent: var(--color-primitive-prune);
+  --theme-text: var(--color-primitive-kale-smoothie);
+  --theme-accent: var(--color-primitive-pumpkin);
+  --theme-stitch: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='32' viewBox='0 0 32 36'><line stroke-width='10' stroke-linecap='round' x1='5' y1='5' x2='27' y2='27' stroke='%23FFB700'/><line stroke-width='10' stroke-linecap='round' x1='5' y1='27' x2='27' y2='5' stroke='%23FFB700'/></svg>");
 }
 
-.t-blueberry {
-  --theme-primary: #357EDD;
-  --theme-secondary: #F6FFFE;
+.theme-kale-smoothie {
+  --theme-background: var(--color-primitive-kale-smoothie);
+  --theme-background-accent: var(--color-primitive-kale);
+  --theme-text: var(--color-primitive-prune);
+  --theme-accent: var(--color-primitive-kale);
+  --theme-stitch: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='32' viewBox='0 0 32 36'><line stroke-width='10' stroke-linecap='round' x1='5' y1='5' x2='27' y2='27' stroke='%23D5008F'/><line stroke-width='10' stroke-linecap='round' x1='5' y1='27' x2='27' y2='5' stroke='%23D5008F'/></svg>");
+}
+
+.theme-berry-sorbet {
+  --theme-background: var(--color-primitive-berry-sorbet);
+  --theme-background-accent: var(--color-primitive-berry);
+  --theme-text: var(--color-primitive-prune);
+  --theme-accent: var(--color-primitive-kale);
+  --theme-stitch: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='32' viewBox='0 0 32 36'><line stroke-width='10' stroke-linecap='round' x1='5' y1='5' x2='27' y2='27' stroke='%23D5008F'/><line stroke-width='10' stroke-linecap='round' x1='5' y1='27' x2='27' y2='5' stroke='%23D5008F'/></svg>");
 }

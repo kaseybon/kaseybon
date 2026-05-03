@@ -1,0 +1,13 @@
+@use "../tokens/breakpoints";
+
+.layout-to-edges {
+  display: flex;
+  flex-direction: column-reverse;
+
+  @media (min-width: breakpoints.$breakpoint--2-columns) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing);
+  }
+}
