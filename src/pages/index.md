@@ -25,43 +25,49 @@ meta:
   </div>
 </div>
 
-<div class="max-width">
-  <div class="section">
-    <h2 class="text-section">A little about me</h2>
-
-    <p>I'm Kasey Bonifacio and I have been building things on the Internet since 2011. I have a diverse background in design, frontend development, and backend development—but the frontend is where my heart is. In 2015 I joined the folks at <a href="https://sparkbox.com">Sparkbox</a> and have focused my career on building accessible websites and usable design systems.</p>
+<div class="section theme-prune">
+  <div class="max-width">
+    <div class="section">
+      <h2 class="text-section">A little about me</h2>
+      <p>I'm Kasey Bonifacio and I have been building things on the Internet since 2011. I have a diverse background in design, frontend development, and backend development—but the frontend is where my heart is. In 2015 I joined the folks at <a href="https://sparkbox.com">Sparkbox</a> and have focused my career on building accessible websites and usable design systems.</p>
+      <nav aria-labelledby="certifications">
+        <h3 id="certifications">Certifications</h3>
+        <ul>
+          <li>
+            <a href="https://www.accessibilityassociation.org/cpwacertification" class="link-pill"><abbr title="Certified Professional in Web Accessibility">CPWA</abbr></a>
+          </li>
+          <li>
+            <a href="https://www.accessibilityassociation.org/wascertification" class="link-pill"><abbr title="Web Accessibility Specialist">WAS</abbr></a>
+          </li>
+          <li>
+            <a href="https://www.accessibilityassociation.org/cpacccertification" class="link-pill"><abbr title="Certified Professional in Accessibility Core Competencies">CPACC</abbr></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <nav class="section decor-divider" aria-label="Experiements">
+      <ul class="experiments-list">
+        <li>
+          <a class="experiments-list__item theme-berry-sorbet" href="http://a11ycalendar.kaseybon.com">
+            <span class="experiments-list__title">Accessibility Calendar</span>
+            <span>An interactive study tool designed to make WCAG success criteria less intimidating and easier to absorb.</span>
+          </a>
+        </li>
+        <li>
+          <a class="experiments-list__item theme-berry-sorbet" href="https://codepen.io/collection/GoQqgz">
+            <span class="experiments-list__title">SVG Cross-Stitch</span>
+            <span>Where two of my favorite crafts collide: the patience of cross-stitch and the precision of hand-coded SVGs.</span>
+          </a>
+        </li>
+        <li>
+          <a class="experiments-list__item theme-berry-sorbet" href="https://codepen.io/kaseybon/project/editor/ZRzoLQ">
+            <span class="experiments-list__title">Flexible Icons</span>
+            <span>A system for serving SVG icons that can be fully customized without embedding the code on the page.</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </div>
-
-  <nav aria-labelledby="certifications" class="section">
-    <h3 id="certifications">Certifications</h3>
-    <ul>
-      <li>
-        <a href="https://www.accessibilityassociation.org/cpwacertification" class="link-pill"><abbr title="Certified Professional in Web Accessibility">CPWA</abbr></a>
-      </li>
-      <li>
-        <a href="https://www.accessibilityassociation.org/wascertification" class="link-pill"><abbr title="Web Accessibility Specialist">WAS</abbr></a>
-      </li>
-      <li>
-        <a href="https://www.accessibilityassociation.org/cpacccertification" class="link-pill"><abbr title="Certified Professional in Accessibility Core Competencies">CPACC</abbr></a>
-      </li>
-    </ul>
-  </nav>
-
-  <nav aria-labelledby="built" class="section">
-    <h3 id="built">Things I've built</h3>
-
-    <ul>
-      <li class="list-block">
-        <a href="http://a11ycalendar.kaseybon.com">Accessibility Calendar</a>
-      </li>
-      <li class="list-block">
-        <a href="https://codepen.io/collection/GoQqgz">SVG Cross-Stitch</a>
-      </li>
-      <li class="list-block">
-        <a href="https://codepen.io/collection/DyJPrP">Obscure CSS Properties</a>
-      </li>
-    </ul>
-  </nav>
 </div>
 
 <div class="section theme-kale-smoothie">
