@@ -56,4 +56,23 @@
 .text-unlink {
   color: currentcolor;
   text-decoration: none;
+
+  &:hover {
+    text-decoration: underline wavy;
+  }
+}
+
+.text-eyebrow {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--theme-accent);
+}
+
+.text-date {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-style: italic;
 }
