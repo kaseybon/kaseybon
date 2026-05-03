@@ -17,3 +17,9 @@
     width: round(down, 40%, 36px);
   }
 }
+
+.decor-divider {
+  margin-block-start: 2.5rem;
+  padding-block-start: 2.5rem;
+  border-top: 1px solid var(--theme-accent);
+}

@@ -48,6 +48,7 @@
 @forward "layouts/page";
 @forward "layouts/max-width";
 @forward "layouts/to-edges";
+@forward "layouts/columns";
 
 // =====================================================================
 // 5. Components
@@ -62,6 +63,7 @@
 @forward "components/section";
 @forward "components/icon-link";
 @forward "components/markdown-content";
+@forward "components/client-list";
 
 // =====================================================================
 // 7. Utilities

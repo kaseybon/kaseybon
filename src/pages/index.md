@@ -63,3 +63,109 @@ meta:
     </ul>
   </nav>
 </div>
+
+<div class="section theme-kale-smoothie">
+  <div class="max-width">
+    <div class="decor-stitches">
+      <h2 class="text-section">I Work With Amazing People</h2>
+      <ul class="client-list">
+        <li class="client-list__item">
+          <svg class="client-list__logo" arial-label="Sparkbox">
+            <use href="images/clients.svg#sparkbox" x="0" y="0" />
+          </svg>
+        </li>
+        <li class="client-list__item">
+          <svg class="client-list__logo" arial-label="Adobe">
+            <use href="images/clients.svg#adobe" x="0" y="0" />
+          </svg>
+        </li>
+        <li class="client-list__item">
+          <svg class="client-list__logo" arial-label="Stanford">
+            <use href="images/clients.svg#stanford" x="0" y="0" />
+          </svg>
+        </li>
+        <li class="client-list__item">
+          <svg class="client-list__logo" arial-label="Gap Inc">
+            <use href="images/clients.svg#gap" x="0" y="0" />
+          </svg>
+        </li>
+        <li class="client-list__item">
+          <svg class="client-list__logo" arial-label="Crown">
+            <use href="images/clients.svg#crown" x="0" y="0" />
+          </svg>
+        </li>
+        <li class="client-list__item">
+          <svg class="client-list__logo" arial-label="Clark State">
+            <use href="images/clients.svg#clarkState" x="0" y="0" />
+          </svg>
+        </li>
+        <li class="client-list__item">
+          <svg class="client-list__logo" arial-label="DP&L">
+            <use href="images/clients.svg#dpl" x="0" y="0" />
+          </svg>
+        </li>
+        <li class="client-list__item">
+          <svg class="client-list__logo" arial-label="NCSBN">
+            <use href="images/clients.svg#ncsbn" x="0" y="0" />
+          </svg>
+        </li>
+        <li class="client-list__item">
+          <svg class="client-list__logo" arial-label="Curriculum Associates">
+            <use href="images/clients.svg#curriculumAssociates" x="0" y="0" />
+          </svg>
+        </li>
+        <li class="client-list__item">
+          <svg class="client-list__logo" arial-label="KUB">
+            <use href="images/clients.svg#kub" x="0" y="0" />
+          </svg>
+        </li>
+        <li class="client-list__item">
+          <svg class="client-list__logo" arial-label="University of Notre Dame">
+            <use href="images/clients.svg#nd" x="0" y="0" />
+          </svg>
+        </li>
+      </ul>
+    </div>
+    <div class="section decor-divider">
+      <div class="columns-four">
+        <div class="columns-four__item">
+          <h3>Project Types</h3>
+          <ul>
+            <li class="list-block">Accessibility Auditing</li>
+            <li class="list-block">Accessibility Remediation</li>
+            <li class="list-block">Design Systems & Pattern Libraries</li>
+            <li class="list-block">CMS Templating</li>
+            <li class="list-block">Content Modeling</li>
+          </ul>
+        </div>
+        <div class="columns-four__item">
+          <h3>Technology</h3>
+          <ul>
+            <li class="list-block">Semantic HTML</li>
+            <li class="list-block">CSS/SCSS</li>
+            <li class="list-block">JavaScript/React</li>
+            <li class="list-block">Static Site Generators</li>
+            <li class="list-block">Headless CMS</li>
+          </ul>
+        </div>
+        <div class="columns-four__item">
+          <h3>Consulting</h3>
+          <ul>
+            <li class="list-block">Technical Strategy</li>
+            <li class="list-block">Roadmapping & Prioritization</li>
+            <li class="list-block">Workflow Optimization</li>
+            <li class="list-block">Mentorship & Education</li>
+          </ul>
+        </div>
+        <div class="columns-four__item">
+          <h3>Bonus</h3>
+          <ul>
+            <li class="list-block">Cross-Team Leadership</li>
+            <li class="list-block">Quality Assurance</li>
+            <li class="list-block">Content Curation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
