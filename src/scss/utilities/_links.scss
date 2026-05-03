@@ -1,12 +1,12 @@
 .link-pill {
   display: inline-block;
   text-decoration: none;
-  border: 2px solid var(--theme-accent);
   color: var(--theme-text);
-  background: var(--theme-background);
+  background: var(--theme-accent);
   border-radius: 2rem;
   padding: 0.25rem 1rem;
   transition: transform var(--animate-speed);
+  font-size: 1rem;
 
   &:hover {
     transform: translateY(-0.5rem);
