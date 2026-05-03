@@ -1,5 +1,13 @@
 .theme-prune {
   --theme-background: var(--color-primitive-prune);
+  --theme-background-accent: var(--color-primitive-kale);
   --theme-text: var(--color-primitive-prune-juice);
   --theme-accent: var(--color-primitive-berry);
+}
+
+.theme-pumpkin {
+  --theme-background: var(--color-primitive-pumpkin-puree);
+  --theme-background-accent: var(--color-primitive-pumpkin);
+  --theme-text: var(--color-primitive-prune);
+  --theme-accent: var(--color-primitive-kale);
 }

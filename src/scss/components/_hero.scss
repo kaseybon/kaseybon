@@ -1,4 +1,23 @@
+@use "../tokens/breakpoints";
+
 .hero {
   position: relative;
-  transition: padding-top var(--animate-speed);
+  color: var(--theme-text);
+  background-color: var(--theme-background);
+  background-image:
+    repeating-linear-gradient( 0deg, var(--theme-background-accent) 0px 1px,	transparent 1px 50px),
+    repeating-linear-gradient( 90deg, var(--theme-background-accent) 0px 1px,	transparent 1px 50px);
+
+  @media (min-width: breakpoints.$breakpoint--2-columns) {
+    text-align: right;
+  }
+
+  &__avatar {
+    display: none;
+
+    @media (min-width: breakpoints.$breakpoint--2-columns) {
+      display: block;
+      max-width: 35rem;
+    }
+  }
 }
