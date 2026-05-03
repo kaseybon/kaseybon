@@ -48,19 +48,19 @@ meta:
     <nav class="section decor-divider" aria-label="Experiements">
       <ul class="experiments-list">
         <li>
-          <a class="experiments-list__item theme-berry-sorbet" href="http://a11ycalendar.kaseybon.com">
+          <a class="experiments-list__item theme-prune-juice" href="http://a11ycalendar.kaseybon.com">
             <span class="experiments-list__title">Accessibility Calendar</span>
             <span>An interactive study tool designed to make WCAG success criteria less intimidating and easier to absorb.</span>
           </a>
         </li>
         <li>
-          <a class="experiments-list__item theme-berry-sorbet" href="https://codepen.io/collection/GoQqgz">
+          <a class="experiments-list__item theme-prune-juice" href="https://codepen.io/collection/GoQqgz">
             <span class="experiments-list__title">SVG Cross-Stitch</span>
             <span>Where two of my favorite crafts collide: the patience of cross-stitch and the precision of hand-coded SVGs.</span>
           </a>
         </li>
         <li>
-          <a class="experiments-list__item theme-berry-sorbet" href="https://codepen.io/kaseybon/project/editor/ZRzoLQ">
+          <a class="experiments-list__item theme-prune-juice" href="https://codepen.io/kaseybon/project/editor/ZRzoLQ">
             <span class="experiments-list__title">Flexible Icons</span>
             <span>A system for serving SVG icons that can be fully customized without embedding the code on the page.</span>
           </a>
