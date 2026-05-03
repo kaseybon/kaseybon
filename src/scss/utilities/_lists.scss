@@ -3,7 +3,6 @@
 
 .list-block {
   @include mixins.cross-stitch-list;
-
   display: block;
 }
 
@@ -15,9 +14,9 @@
   @media (min-width: breakpoints.$breakpoint--2-columns) {
     display: inline-block;
 
-    &:not(:first-child):before,
-    &:not(:first-child):after {
-      display: block;
+    &:first-child::before,
+    &:first-child::after {
+      display: none;
     }
   }
 }
