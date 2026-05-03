@@ -1,11 +1,23 @@
 @use "../tools/mixins";
+@use "../tokens/breakpoints";
 
 .list-block {
-  display: block;
   @include mixins.cross-stitch-list;
+
+  display: block;
 }
 
 .list-inline {
-  display: inline-block;
   @include mixins.cross-stitch-list;
+  display: block;
+  text-align: left;
+
+  @media (min-width: breakpoints.$breakpoint--2-columns) {
+    display: inline-block;
+
+    &:not(:first-child):before,
+    &:not(:first-child):after {
+      display: block;
+    }
+  }
 }

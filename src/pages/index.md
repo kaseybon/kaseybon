@@ -16,7 +16,7 @@ meta:
   <div class="hero__list theme-kale decor-bubble-border">
     <div class="max-width">
       <ul class="hero__list-list">
-        <li>Web Developer</li>
+        <li class="list-inline">Web Developer</li>
         <li class="list-inline">Technical Director</li>
         <li class="list-inline">Accessibility Expert</li>
         <li class="list-inline">Crafter</li>
