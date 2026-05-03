@@ -17,6 +17,7 @@
 
     @media (min-width: breakpoints.$breakpoint--2-columns) {
       display: block;
+      width: 45%;
       max-width: 35rem;
     }
   }

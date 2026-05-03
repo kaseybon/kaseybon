@@ -1,0 +1,19 @@
+.decor-stitches {
+  position: relative;
+  padding-top: 5rem;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc(var(--spacing) * 1.5);
+    right: 0;
+    height: 2rem;
+    width: round(down, 60%, 36px);
+    background-image: var(--theme-stitch);
+  }
+
+  &.hero::after {
+    width: round(down, 40%, 36px);
+  }
+}

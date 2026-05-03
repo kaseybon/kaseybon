@@ -8,7 +8,7 @@ meta:
 <div class="hero theme-pumpkin">
   <div class="max-width layout-to-edges">
     <img src="/images/hero-avatar.svg" alt="" class="hero__avatar" />
-    <h1 class="text-featured">Stitching together<br> <span class="text-highlight">handcrafted</span><br> websites</h1>
+    <h1 class="text-featured decor-stitches">Stitching together<br> <span class="text-highlight">handcrafted</span><br> websites</h1>
   </div>
 </div>
 
