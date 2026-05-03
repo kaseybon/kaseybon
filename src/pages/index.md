@@ -7,7 +7,7 @@ meta:
 
 <div class="hero theme-pumpkin">
   <div class="max-width layout-to-edges">
-    <svg height="600" width="600" role="presentational" class="hero__avatar">
+    <svg height="600" width="600" class="hero__avatar" aria-hidden="true">
       <use href="/images/hero-Avatar.svg#heroAvatar" x="0" y="0" />
     </svg>
     <h1 class="text-featured decor-stitches">Stitching together<br> <span class="text-highlight">handcrafted</span><br> websites</h1>
@@ -76,57 +76,68 @@ meta:
       <h2 class="text-section">I Work With Amazing People</h2>
       <ul class="client-list">
         <li class="client-list__item">
-          <svg class="client-list__logo" arial-label="Sparkbox">
+          <svg class="client-list__logo" aria-labelledby="sparkbox" role="img">
+            <title id="sparkbox">Sparkbox</title>
             <use href="images/clients.svg#sparkbox" x="0" y="0" />
           </svg>
         </li>
         <li class="client-list__item">
-          <svg class="client-list__logo" arial-label="Adobe">
+          <svg class="client-list__logo" aria-labelledby="adobe" role="img">
+            <title id="adobe">Adobe</title>
             <use href="images/clients.svg#adobe" x="0" y="0" />
           </svg>
         </li>
         <li class="client-list__item">
-          <svg class="client-list__logo" arial-label="Stanford">
+          <svg class="client-list__logo" aria-labelledby="stanford" role="img">
+            <title id="stanford">Stanford</title>
             <use href="images/clients.svg#stanford" x="0" y="0" />
           </svg>
         </li>
         <li class="client-list__item">
-          <svg class="client-list__logo" arial-label="Gap Inc">
+          <svg class="client-list__logo" aria-labelledby="gap" role="img">
+            <title id="gap">Gap Inc</title>
             <use href="images/clients.svg#gap" x="0" y="0" />
           </svg>
         </li>
         <li class="client-list__item">
-          <svg class="client-list__logo" arial-label="Crown">
+          <svg class="client-list__logo" aria-labelledby="crown" role="img">
+            <title id="crown">Crown</title>
             <use href="images/clients.svg#crown" x="0" y="0" />
           </svg>
         </li>
         <li class="client-list__item">
-          <svg class="client-list__logo" arial-label="Clark State">
+          <svg class="client-list__logo" aria-labelledby="cs" role="img">
+            <title id="cs">Clark State</title>
             <use href="images/clients.svg#clarkState" x="0" y="0" />
           </svg>
         </li>
         <li class="client-list__item">
-          <svg class="client-list__logo" arial-label="DP&L">
+          <svg class="client-list__logo" aria-labelledby="dpl" role="img">
+            <title id="dpl">DP&L</title>
             <use href="images/clients.svg#dpl" x="0" y="0" />
           </svg>
         </li>
         <li class="client-list__item">
-          <svg class="client-list__logo" arial-label="NCSBN">
+          <svg class="client-list__logo" aria-labelledby="ncsbn" role="img">
+            <title id="ncsbn">NCSBN</title>
             <use href="images/clients.svg#ncsbn" x="0" y="0" />
           </svg>
         </li>
         <li class="client-list__item">
-          <svg class="client-list__logo" arial-label="Curriculum Associates">
+          <svg class="client-list__logo" aria-labelledby="ca" role="img">
+            <title id="ca">Curriculum Associates</title>
             <use href="images/clients.svg#curriculumAssociates" x="0" y="0" />
           </svg>
         </li>
         <li class="client-list__item">
-          <svg class="client-list__logo" arial-label="KUB">
+          <svg class="client-list__logo" aria-labelledby="kub" role="img">
+            <title id="kub">KUB</title>
             <use href="images/clients.svg#kub" x="0" y="0" />
           </svg>
         </li>
         <li class="client-list__item">
-          <svg class="client-list__logo" arial-label="University of Notre Dame">
+          <svg class="client-list__logo" aria-labelledby="nd" role="img">
+            <title id="nd">University of Notre Dame</title>
             <use href="images/clients.svg#nd" x="0" y="0" />
           </svg>
         </li>
