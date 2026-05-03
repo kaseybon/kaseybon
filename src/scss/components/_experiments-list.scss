@@ -16,6 +16,8 @@
     color: var(--theme-text);
     padding: 5rem 3rem 3rem;
     text-decoration: none;
+    box-sizing: border-box;
+    height: 100%;
 
     &::before {
       content: '';
