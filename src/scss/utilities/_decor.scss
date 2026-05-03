@@ -7,14 +7,14 @@
     display: block;
     position: absolute;
     top: calc(var(--spacing) * 1.5);
-    right: 0;
+    right: var(--spacing);
     height: 2rem;
     width: round(down, 60%, 36px);
     background-image: var(--theme-stitch);
   }
 
-  &.hero::after {
-    width: round(down, 40%, 36px);
+  &[class^="text-"]::after {
+    right: 0;
   }
 }
 
@@ -22,6 +22,12 @@
   margin-block-start: 2.5rem;
   padding-block-start: 2.5rem;
   border-top: 1px solid var(--theme-accent);
+}
+
+.decor-bottom-divider {
+  margin-block-end: 2.5rem;
+  padding-block-end: 2.5rem;
+  border-bottom: 1px solid var(--theme-accent);
 }
 
 .decor-bubble-border {
