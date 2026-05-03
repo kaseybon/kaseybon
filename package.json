@@ -23,15 +23,14 @@
     "build": "npm run clean && sass src/scss/:dist/css/ --style=compressed && npx @11ty/eleventy"
   },
   "dependencies": {
+    "@11ty/eleventy": "^3.1.5",
     "chokidar": "^3.5.3",
     "express": "^4.18.2",
+    "js-yaml": "^4.1.1",
     "lodash": "^4.17.21",
     "query-string": "^6.14.1",
     "rimraf": "^5.0.5",
     "sass": "^1.69.3",
     "shelljs": "^0.8.5"
-  },
-  "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
   }
 }
