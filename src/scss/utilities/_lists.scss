@@ -1,5 +1,11 @@
 @use "../tools/mixins";
 
 .list-block {
+  display: block;
+  @include mixins.cross-stitch-list;
+}
+
+.list-inline {
+  display: inline-block;
   @include mixins.cross-stitch-list;
 }

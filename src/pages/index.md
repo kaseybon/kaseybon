@@ -12,6 +12,17 @@ meta:
     </svg>
     <h1 class="text-featured decor-stitches">Stitching together<br> <span class="text-highlight">handcrafted</span><br> websites</h1>
   </div>
+
+  <div class="hero__list theme-kale">
+    <div class="max-width">
+      <ul class="hero__list-list">
+        <li>Web Developer</li>
+        <li class="list-inline">Technical Director</li>
+        <li class="list-inline">Accessibility Expert</li>
+        <li class="list-inline">Crafter</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 <div class="max-width">

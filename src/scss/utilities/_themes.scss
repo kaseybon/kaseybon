@@ -1,3 +1,11 @@
+.theme-prune-juice {
+  --theme-background: var(--color-primitive-prune-juice);
+  --theme-background-accent: var(--color-primitive-prune);
+  --theme-text: var(--color-primitive-prune);
+  --theme-accent: var(--color-primitive-kale);
+  --theme-stitch: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='32' viewBox='0 0 32 36'><line stroke-width='10' stroke-linecap='round' x1='5' y1='5' x2='27' y2='27' stroke='%23137752'/><line stroke-width='10' stroke-linecap='round' x1='5' y1='27' x2='27' y2='5' stroke='%23137752'/></svg>");
+}
+
 .theme-prune {
   --theme-background: var(--color-primitive-prune);
   --theme-background-accent: var(--color-primitive-kale);
@@ -12,4 +20,12 @@
   --theme-text: var(--color-primitive-prune);
   --theme-accent: var(--color-primitive-kale);
   --theme-stitch: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='32' viewBox='0 0 32 36'><line stroke-width='10' stroke-linecap='round' x1='5' y1='5' x2='27' y2='27' stroke='%23137752'/><line stroke-width='10' stroke-linecap='round' x1='5' y1='27' x2='27' y2='5' stroke='%23137752'/></svg>");
+}
+
+.theme-kale {
+  --theme-background: var(--color-primitive-kale);
+  --theme-background-accent: var(--color-primitive-prune);
+  --theme-text: var(--color-primitive-kale-smoothie);
+  --theme-accent: var(--color-primitive-pumpkin);
+  --theme-stitch: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='32' viewBox='0 0 32 36'><line stroke-width='10' stroke-linecap='round' x1='5' y1='5' x2='27' y2='27' stroke='%23FFB700'/><line stroke-width='10' stroke-linecap='round' x1='5' y1='27' x2='27' y2='5' stroke='%23FFB700'/></svg>");
 }

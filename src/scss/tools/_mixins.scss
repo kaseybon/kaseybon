@@ -1,6 +1,5 @@
 @mixin cross-stitch-list {
   position: relative;
-  display: block;
   padding-left: 1.25rem;
 
   &::before,
@@ -8,7 +7,7 @@
     content: '';
     position: absolute;
     left: 0.25rem;
-    top: 0.5rem;
+    top: 0.5em;
     display: block;
     height: 0.75rem;
     width: 3px;

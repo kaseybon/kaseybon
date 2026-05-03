@@ -21,4 +21,15 @@
       max-width: 35rem;
     }
   }
+
+  &__list {
+    background-color: var(--theme-background);
+    color: var(--theme-text);
+    text-align: center;
+    font-size: 1.25rem;
+
+    &-list {
+      margin: 0;
+    }
+  }
 }
