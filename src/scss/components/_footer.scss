@@ -1,6 +1,6 @@
 .footer {
   background: var(--theme-background);
   color: var(--theme-text);
-  padding-block: calc(var(--spacing) * 2);
+  padding-block: var(--spacing-sections-block);
   text-align: center;
 }

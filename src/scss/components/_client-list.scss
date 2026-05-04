@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 2rem 1rem;
+  gap: var(--spacing-columns);
   margin-block: 3rem;
 
   &__item {
@@ -15,7 +15,7 @@
     }
 
     @media (min-width: breakpoints.$breakpoint--logos) {
-      width: 15%;
+      width: 14%;
     }
   }
 
