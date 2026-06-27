@@ -71,10 +71,9 @@
 // 7. Utilities
 // Utilities and helper classes with ability to override anything
 // which goes before in the triangle, eg. hide helper class
+@forward "utilities/general";
 @forward "utilities/text";
 @forward "utilities/lists";
 @forward "utilities/links";
-@forward "utilities/spacing";
 @forward "utilities/decor";
 @forward "utilities/themes";
-@forward "utilities/display";

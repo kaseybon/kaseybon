@@ -13,7 +13,7 @@ h2 {
 }
 
 p {
-  margin: 0 0 var(--spacing);
+  margin: 0 0 var(--spacing-content);
 }
 
 a:not([class]) {
@@ -26,7 +26,7 @@ a:not([class]) {
 
 ul {
   list-style-type: none;
-  margin: 0 0 var(--spacing);
+  margin: 0 0 var(--spacing-content);
   padding: 0;
 }
 

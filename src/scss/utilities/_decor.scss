@@ -6,8 +6,8 @@
     content: '';
     display: block;
     position: absolute;
-    top: calc(var(--spacing) * 1.5);
-    right: var(--spacing);
+    top: var(--spacing-columns);
+    right: var(--spacing-content);
     height: 2rem;
     width: round(down, 60%, 36px);
     background-image: var(--theme-stitch);

@@ -5,12 +5,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: calc(var(--spacing) / 2);
-  margin-block-end: calc(var(--spacing) / 2);
-
-  @media (min-width: breakpoints.$breakpoint--2-columns) {
-    gap: var(--spacing);
-  }
+  gap: var(--spacing-columns);
 
   &__item {
     transition: transform var(--animate-speed);
@@ -23,7 +18,7 @@
   &__link {
     display: flex;
     align-items: center;
-    gap: calc(var(--spacing) / 4);
+    gap: 0.5rem;
   }
 
   &__icon {
